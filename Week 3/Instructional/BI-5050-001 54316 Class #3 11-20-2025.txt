@@ -1,0 +1,2176 @@
+AI-generated content may be incorrect
+
+William B Lambert started transcription
+
+William B Lambert
+0 minutes 3 seconds0:03
+William B Lambert 0 minutes 3 seconds
+Three.
+William B Lambert 0 minutes 4 seconds
+Okay.
+William B Lambert 0 minutes 7 seconds
+So I'm back. But again, I got a slide show that talks through these things. So the bottom line is those are those are custom labels. Show you how to do that. And then this is the deal.
+William B Lambert 0 minutes 22 seconds
+Watch me on this.
+William B Lambert 0 minutes 24 seconds
+I have the managerial assumptions. I don't know if you remember, I know I said a lot in the first thing, but in the spreadsheet engineering, when I said about parameters, you need to make sure that you don't get conflicts.
+William B Lambert 0 minutes 37 seconds
+What do I mean by that? When you pull this excursion button, you need to make sure that everything else is drawing off the excursion. And when you set this to base case, it needs to make sure the other ones all go to base case.
+William B Lambert 0 minutes 56 seconds
+otherwise you end up with a problem like my buddies, which is they look at something and wait, hey, those charts didn't have those numbers 5 minutes ago. And then all of a sudden you're going through your different models. So in this case, ideally what we do, but it's a little more advanced VBA code and they will get there.
+William B Lambert 1 minute 16 seconds
+is when I change this, right, from base case, I'm gonna change it to what I call an excursion, right? Everything's changing, but on those models in the back, when I go back to those models, I want them at base case. I don't want.
+William B Lambert 1 minute 36 seconds
+Any scenarios, so then creating like a scratch pad basically that you're using then to update that those your drop down is affecting, so you're updating the scratch pad, not the kind of the back end stuff. No, I'm doing the back end, so if I, so if I go excursion right here, right?
+William B Lambert 1 minute 57 seconds
+I go excursion right here and what am I using for? That's changing all the other specials as well. Yeah, I got a discount rate here of 5%. So if I go to any place I go, I look.
+William B Lambert 2 minutes 11 seconds
+5% on the discount rate. You see that? And again, that's all driven by this nested if.
+William B Lambert 2 minutes 19 seconds
+So, but yeah, it's a trick.
+
+Dale Brittain
+2 minutes 20 seconds2:20
+Dale Brittain 2 minutes 20 seconds
+So wait, wait, you want the excursion to ripple through all the other work sheets?
+
+William B Lambert
+2 minutes 29 seconds2:29
+William B Lambert 2 minutes 29 seconds
+Exactly, exactly, because these are managerial assumptions. So you're in the managerial meetings. They don't want to be flipping back and forth between charts, right? They don't want that. They want results. And they ask a question, you know, because a finance person might say, hey, yeah, we've updated our discount rate.
+
+Dale Brittain
+2 minutes 31 seconds2:31
+Dale Brittain 2 minutes 31 seconds
+Okay.
+Dale Brittain 2 minutes 38 seconds
+Right, right, right, okay.
+
+William B Lambert
+2 minutes 48 seconds2:48
+William B Lambert 2 minutes 48 seconds
+I found somebody we can get it at 4. Well, you don't want to go through each one and change it to four. You want to be able to do that from here. The key is...
+
+Dale Brittain
+2 minutes 57 seconds2:57
+Dale Brittain 2 minutes 57 seconds
+So then wait, wait, so, but also you could do it on there. Like if the discount rate isn't uniform against all locations, you could set it here and then override it on the individual model for the location.
+
+William B Lambert
+3 minutes 11 seconds3:11
+William B Lambert 3 minutes 11 seconds
+Yeah, you could. What I would say with that is, um...
+William B Lambert 3 minutes 18 seconds
+Again, the purpose, the purpose of the summary dashboard is in the meeting. And we want to limit, we want to limit the assumptions that they can vary. Okay. But what we do, because otherwise, you know, I mean, they're going to tell you just like I told you, right?
+
+Dale Brittain
+3 minutes 33 seconds3:33
+Dale Brittain 3 minutes 33 seconds
+Okay.
+
+William B Lambert
+3 minutes 39 seconds3:39
+William B Lambert 3 minutes 39 seconds
+But they can come up with all sorts of little stuff. I was in the, again, I took over and ran these quarterly senior leadership meetings. And I remember once, it's the toughest analytical thing I've ever done. I'm in there and I'm sitting, they said, no, you sit next to him, the COO.
+William B Lambert 4 minutes 1 second
+and he's asking me to change stuff on the fly. And he asked me, and I was doing it in a database, and at one point he says, can you do this? And I'd been changing stuff, right? And I thought about it.
+William B Lambert 4 minutes 14 seconds
+No, sir, I can't do that. I gotta go back and that's gotta be done elsewhere. I'll get back to you.
+William B Lambert 4 minutes 22 seconds
+That was funny because the wolf came to me afterwards. He says, nobody ever tells him no. But you gotta, you gotta put, you gotta know, hey, wait a minute, do I need to shut this thing down and go redo some stuff? Or can I do it up here? In the same token, you don't want this thing polluted with 5,000 switches.
+William B Lambert 4 minutes 42 seconds
+Does that make sense, Dale? It's not easy. I mean, this is the art, right?
+
+Dale Brittain
+4 minutes 45 seconds4:45
+Dale Brittain 4 minutes 45 seconds
+Yeah, no, I mean, just like in real world, I'm like, is it realistic that the discount rate would be universal across all locations? So then I'm like, oh, you know, because in my, you know, like,
+
+William B Lambert
+4 minutes 57 seconds4:57
+William B Lambert 4 minutes 57 seconds
+Abs.
+William B Lambert 4 minutes 59 seconds
+But it depends. Absolutely. They're all in Colorado. They're getting money from a certain place. They're going to use a standard discount rate.
+William B Lambert 5 minutes 9 seconds
+Yes, does that make sense? Yeah.
+
+Dale Brittain
+5 minutes 10 seconds5:10
+Dale Brittain 5 minutes 10 seconds
+Yeah, like if it was different geographic regions, maybe, you know, that's a different story, right? But, but that's not what we're right.
+
+William B Lambert
+5 minutes 16 seconds5:16
+William B Lambert 5 minutes 16 seconds
+Excellent. Actually, I would guess they get the same lender, um, who are financing it from, so, so yeah.
+
+Dale Brittain
+5 minutes 19 seconds5:19
+Dale Brittain 5 minutes 19 seconds
+Oh yeah, okay. Right. Volume discount, right?
+
+William B Lambert
+5 minutes 24 seconds5:24
+William B Lambert 5 minutes 24 seconds
+These were just, these were to exercise the idea of the switches. One last.
+
+Dale Brittain
+5 minutes 28 seconds5:28
+Dale Brittain 5 minutes 28 seconds
+Yeah, global and I see the global, right? I mean, that's the whole point that if it's global, it better be global, right? If you're labeling.
+
+William B Lambert
+5 minutes 34 seconds5:34
+William B Lambert 5 minutes 34 seconds
+Exactly like the idea of being able to have a set number of values that you can select rather than just being able to freeform and are like, you know, 7 1/2 percent. Well, you like having it fixed. Well, that's fixed cases. These I can change numbers. Oh, you can actually, you can still go in there and also update them. Absolutely. Okay. And then finally, last note.
+William B Lambert 5 minutes 54 seconds
+is we'll resetting the model to base case. I turn around and I put a macro there. We'll do some VBA tonight and show you. But the reality, what I also want you to see is this. If I turn around and change him.
+William B Lambert 6 minutes 12 seconds
+To what if, and let's just go and look at that guy. I'm gonna save it.
+William B Lambert 6 minutes 16 seconds
+I'm going to close it.
+William B Lambert 6 minutes 20 seconds
+Reopen it.
+William B Lambert 6 minutes 26 seconds
+it's set back to base case. So we're using VBA code to make sure no matter what, every time that thing's open, it's set to base case. Does that make sense?
+William B Lambert 6 minutes 40 seconds
+Is that like on?
+
+Dale Brittain
+6 minutes 40 seconds6:40
+Dale Brittain 6 minutes 40 seconds
+Do you, on the summary, do you have a reset button? It looked like I saw, like you...
+
+William B Lambert
+6 minutes 45 seconds6:45
+William B Lambert 6 minutes 45 seconds
+Well, I put this here as well. If I was doing this for real, again, I'd have more complicated VBA back there that what it does is it looks at the whole sheet and if something changes, right, it says, ooh, something changed. And then you put in there an if statement that says if that.
+William B Lambert 7 minutes 3 seconds
+Goes to, you know, excursion, then set all these other switches to base case, just to make sure.
+William B Lambert 7 minutes 13 seconds
+Okay.
+William B Lambert 7 minutes 15 seconds
+All right, I know we've spent a lot of time. Let me just go through the slide show and then we'll take a break, okay?
+William B Lambert 7 minutes 22 seconds
+And again, gang, forgive me for talking too much, but I do love this stuff. And I think there's tremendous value in being able to do this stuff. You know, you might never get pulled in front of a senior leadership team, but...
+William B Lambert 7 minutes 37 seconds
+Project managers.
+William B Lambert 7 minutes 39 seconds
+they love this stuff, that you're able to build this stuff for them. And all of a sudden, you know, again, I said, all my undergrads, I want you to be the hero, you know, and if this can get you there, that's great. If it can't, hey, you learn something. So this is.
+William B Lambert 7 minutes 56 seconds
+This is the overview of the model, and again, you have this sheet is in the module now. The idea is the manager asks a question, I want to change one input, and in this case, I want all the updates to happen. This right here, I'll get back to you. You've got to do it sometimes, but if you can do it in the meeting,
+William B Lambert 8 minutes 16 seconds
+It's more efficient for everybody, right? You got everybody in the room, right? Okay, what are we going to do? We're going to send emails? Yes, that's what we'll do. But then once you do it and you send the e-mail, they're going to go, well, what about if that changes? So as much as possible, you want to be able to do it in the meeting. In this case,
+William B Lambert 8 minutes 35 seconds
+I built this off our thing and know my bot, she made this for me. You know, I changed it as I wanted and then I said put it in my template. So inputs I have over here, I had the data dictionary in the back. This is all about how the inputs are flowing.
+William B Lambert 8 minutes 55 seconds
+They go from the data to each of the individual models to the dashboard.
+William B Lambert 9 minutes 1 second
+It's gotta like that, that hierarchy chart kind of idea I showed you, it's gotta come from the bottom up.
+William B Lambert 9 minutes 7 seconds
+Gotta come from the bottom up. Here's my formatting legend. You guys know that. And again, I would have something like this, just, you know, whatever it is to this, what you want the audience to look at and see without having to figure it out.
+William B Lambert 9 minutes 26 seconds
+Naming. This is, first off, patterns. You saw the way I did it. I used the under score. They call it snake case. Some people use the camel case, where the first word is lowercase and then every other word is uppercase, first letter, and they're jammed together. But in this case, you want to have some type of logical order.
+William B Lambert 9 minutes 49 seconds
+and stick to it throughout the model. And again, this is that idea of, you know, that's not audible, this is maintainable.
+William B Lambert 10 minutes 1 second
+The names, the names. You can go name crazy. You can. The general guidance, I would say, and this is all personal style, the general guidance is, at least in this class, you have to have a name range for your parameters.
+William B Lambert 10 minutes 22 seconds
+And, like, you know the outputs of the parameters, things like that, right? If you are...
+William B Lambert 10 minutes 30 seconds
+in a calculation like a cash flow, or we're doing one row after another, those should be named. It makes sense. Some things are super complicated and your formulas, then just, that's like plumbing behind the walls. You know what I mean?
+William B Lambert 10 minutes 50 seconds
+That's plumbing behind the walls. If you're **** retentive, you can do everything, kind of like I am, but for the most part, parameters definitely, outputs definitely, things that you're going to pull, all right, and use definitely, but just you do not need to name every single thing in your.
+William B Lambert 11 minutes 11 seconds
+In your...
+William B Lambert 11 minutes 13 seconds
+I don't know if anybody else does plumbing. I remodel all my houses and stuff. I love plumbing. Why? Because I don't do it for a job. But, you know, I mean, the guts of the plumbing, nobody sees, but the faucets that come out of the wall, right, the drains under the sink.
+
+Dale Brittain
+11 minutes 23 seconds11:23
+Dale Brittain 11 minutes 23 seconds
+Mm.
+William B Lambert
+11 minutes 33 seconds11:33
+William B Lambert 11 minutes 33 seconds
+Those are there, so you need names on that. I hope that analogy works for you.
+
+Dale Brittain
+11 minutes 37 seconds11:37
+Dale Brittain 11 minutes 37 seconds
+I go with network cables.
+
+William B Lambert
+11 minutes 40 seconds11:40
+William B Lambert 11 minutes 40 seconds
+Yeah, I love it. I love it.
+
+Dale Brittain
+11 minutes 40 seconds11:40
+Dale Brittain 11 minutes 40 seconds
+Like, downstairs, like, everything's labeled with a little tag on it, otherwise, like, I would, you know, I saw an unplug something and then the whole house stops working, you know, like, you don't know.
+
+William B Lambert
+11 minutes 47 seconds11:47
+William B Lambert 11 minutes 47 seconds
+Much more.
+William B Lambert 11 minutes 52 seconds
+A much better analogy. Switches, base case, what if an excursion? This is what I just showed you. Right, the base case, that's the plan. On locations, I might want to test things, one off, but over here in the meeting with the bosses, you want to kind of limit
+William B Lambert 12 minutes 12 seconds
+them on. And you want to limit yourself. You could spend forever building crazy. I'm going to make the greatest thing ever, right? And you're only going to be using it for five meetings. Then again, if it's your project that you're going to be doing for the next however many years, yeah.
+William B Lambert 12 minutes 31 seconds
+You're going to be changing it, but it's you really want to kind of see what's in and what's out for the meeting. And then this just follows that logic.
+William B Lambert 12 minutes 44 seconds
+Here's my first if and there's the next. And I just showed that to you. You can see it later. This walks through what it does. Data validation. This is what I'm talking about on these switches. I'm not letting you pick anything else.
+William B Lambert 13 minutes 5 seconds
+Same thing on necessarily those rates for discount rates. OK.
+William B Lambert 13 minutes 12 seconds
+project life and chart scale.
+William B Lambert 13 minutes 17 seconds
+Okay, whatever. Okay, let's take a break. I know I talked A lot. Man, we got a lot to go through. Shoot. Can we do it 5 minutes? Possible?
+William B Lambert 13 minutes 35 seconds
+Are y'all hanging with me online?
+JH
+
+Jordyn Heidrich
+13 minutes 41 seconds13:41
+Jordyn Heidrich 13 minutes 41 seconds
+Yes.
+
+William B Lambert
+13 minutes 42 seconds13:42
+William B Lambert 13 minutes 42 seconds
+Okay, beautiful, thanks.
+SD
+
+Susan Dang
+13 minutes 42 seconds13:42
+Susan Dang 13 minutes 42 seconds
+Yup.
+
+William B Lambert
+16 minutes 16 seconds16:16
+William B Lambert 16 minutes 16 seconds
+And did you?
+William B Lambert 16 minutes 19 seconds
+Same.
+
+Dale Brittain
+18 minutes 5 seconds18:05
+Dale Brittain 18 minutes 5 seconds
+Dr. Lambert, are you there?
+
+William B Lambert
+18 minutes 9 seconds18:09
+William B Lambert 18 minutes 9 seconds
+Yeah, I'm back. Sorry about that. Someone's asked about my favorite cookies. Let me let me answer. Peanut butter. My daughter makes me peanut butter cookies. Okay. She knows how to.
+
+Dale Brittain
+18 minutes 11 seconds18:11
+Dale Brittain 18 minutes 11 seconds
+Yeah, no worries.
+
+William B Lambert
+18 minutes 23 seconds18:23
+William B Lambert 18 minutes 23 seconds
+She knows how to get Dad.
+William B Lambert 18 minutes 25 seconds
+Stick for it, bring in some cookies.
+William B Lambert 18 minutes 29 seconds
+I mean, I brought the Professor Herman some oatmeal raisins because he wanted some, so. But do you need to help? Yeah, I like to bake very much. I love to bake. That's what my daughter loves. She loves to bake. It's a good time. It's really relaxing. Plus, you get a nice taste of treat when you're done. Yeah, yeah. It's a good time.
+
+Dale Brittain
+18 minutes 50 seconds18:50
+Dale Brittain 18 minutes 50 seconds
+So, yeah.
+
+William B Lambert
+18 minutes 50 seconds18:50
+William B Lambert 18 minutes 50 seconds
+Okay, I'm sorry, Dale. I'm sorry, Dale.
+
+Dale Brittain
+18 minutes 54 seconds18:54
+Dale Brittain 18 minutes 54 seconds
+When you were earlier, you were talking about the midterm and it sounded like we would need to have a laptop to do work. Oh boy. Okay.
+
+William B Lambert
+19 minutes 4 seconds19:04
+William B Lambert 19 minutes 4 seconds
+Yep, yeah, yeah, not work.
+
+Dale Brittain
+19 minutes 7 seconds19:07
+Dale Brittain 19 minutes 7 seconds
+I do not have a laptop. I built my own PC, so I sunk all my money in building a PC. But I've been toying with the idea that I needed a laptop, but I hadn't had a good reason yet. So now I do.
+
+William B Lambert
+19 minutes 20 seconds19:20
+William B Lambert 19 minutes 20 seconds
+****, yeah, let me.
+William B Lambert 19 minutes 23 seconds
+Yeah, let me think on how to do that. I'm not sure if we have a, I don't want to go out and buy something that.
+William B Lambert 19 minutes 32 seconds
+Yeah, just for the class. So let me think through how that's going to work. Is that okay?
+SD
+Susan Dang
+19 minutes 38 seconds19:38
+Susan Dang 19 minutes 38 seconds
+I think I can read one from the library because I think they do learn out Chromebooks at the library. So maybe check it out and see what they say.
+
+Dale Brittain
+19 minutes 39 seconds19:39
+Dale Brittain 19 minutes 39 seconds
+Yeah, absolutely.
+Dale Brittain 19 minutes 43 seconds
+Oh!
+Dale Brittain 19 minutes 45 seconds
+Oh, okay.
+
+William B Lambert
+19 minutes 47 seconds19:47
+William B Lambert 19 minutes 47 seconds
+Okay.
+
+Dale Brittain
+19 minutes 48 seconds19:48
+Dale Brittain 19 minutes 48 seconds
+You know, I've been waiting for an excuse to buy a laptop, to be honest. So, you know, this, this, you know, tax man, I'll say, I mean, because I think that's school expenses. I think, I believe, or at least at some point you could write that off. I don't know, off the tax of my check with my tax professional.
+SD
+Susan Dang
+20 minutes 6 seconds20:06
+Susan Dang 20 minutes 6 seconds
+You could write off a laptop for work too. If you do self-employment, you could write it off. Yeah.
+
+Dale Brittain
+20 minutes 10 seconds20:10
+Dale Brittain 20 minutes 10 seconds
+Yeah, okay. Yeah, so there you go. Good excuse for a tax break.
+
+Adina Lobato
+20 minutes 14 seconds20:14
+Adina Lobato 20 minutes 14 seconds
+You can also count it as something that you need for school. I mean, since it's required, you can write it off that way also.
+
+Dale Brittain
+20 minutes 22 seconds20:22
+Dale Brittain 20 minutes 22 seconds
+That's.
+Dale Brittain 20 minutes 24 seconds
+That's what I, that's what when I, when Dr. Lambert said, yeah, I want you to have a laptop. I'm like, well, that checks that box. My professor says I need a laptop, you know, guess I'm going to Best Buy.
+AL
+
+Adina Lobato
+20 minutes 34 seconds20:34
+Adina Lobato 20 minutes 34 seconds
+Mhm.
+
+William B Lambert
+20 minutes 37 seconds20:37
+William B Lambert 20 minutes 37 seconds
+Micro Center. Yeah, Micro Center is where I go a couple 100 bucks. I get my refurbished ones and that's just great. I mean, the one that I'm using right now is technically a gaming top. I got like 500 bucks and a psychic problem. Those are nice too. OK.
+William B Lambert 20 minutes 56 seconds
+Oh, I'm sorry. OK, well, let me let me start sharing again, and we will.
+William B Lambert 21 minutes 3 seconds
+share that screen. I want to do this. Move you guys over here. And so we are going to get into the Excel here in a minute. I just, just real quick, I just, this is another one in the module. Oops, why am I not? Oh.
+William B Lambert 21 minutes 22 seconds
+This is another one in the, that we just talked about on the, it's in the module on Canvas and this is the more stuff. Labels. Yeah, the labels in there, this shows you how to do it. The bottom line is when
+William B Lambert 21 minutes 41 seconds
+You are in a chart and you right click on the series and say, add data labels.
+William B Lambert 21 minutes 49 seconds
+Then you click on one of the data labels, you right click and it says format data labels. When you go to format, there's a bunch of check boxes and it's defaulted to quote value. You can uncheck that and check cell. And so you set up cells.
+William B Lambert 22 minutes 8 seconds
+that have this concatenated text. Oh yeah. That you want to put on the cell. Formulas too, right? Yep, you got to have it. And it's right there. Tells you value, library, blah. And this is just more examples. So don't want to take time on that. What are we going to do?
+William B Lambert 22 minutes 29 seconds
+What do we do? Well, we got three things to take care of tonight. Number one is our forecasting model. Number 2 is our tornado diagram. And #3 is our VBA. So let's start with the forecasting. And I posted that.
+William B Lambert 22 minutes 48 seconds
+My slide show on the forecasting.
+William B Lambert 22 minutes 52 seconds
+Hope you saw it. Okay, it's not there.
+William B Lambert 22 minutes 58 seconds
+And forgive me, but some of this stuff is from my other classes. I'm not going to reinvent the wheel to make new slides or new shows or I'm going to say, I can't make new videos.
+William B Lambert 23 minutes 15 seconds
+For me to do 15 minutes of videos takes me almost a day.
+William B Lambert 23 minutes 20 seconds
+Uh, check the...
+William B Lambert 23 minutes 26 seconds
+And again.
+
+Dale Brittain
+23 minutes 26 seconds23:26
+Dale Brittain 23 minutes 26 seconds
+Can you give us a blooper reel?
+
+William B Lambert
+23 minutes 29 seconds23:29
+William B Lambert 23 minutes 29 seconds
+Yeah.
+
+Dale Brittain
+23 minutes 30 seconds23:30
+Dale Brittain 23 minutes 30 seconds
+Yeah.
+
+William B Lambert
+23 minutes 31 seconds23:31
+William B Lambert 23 minutes 31 seconds
+Yeah, even, well, actually the majority of the time, the effort is spent in getting the slideshows and animating them and putting together a script so I don't sound like the knucklehead.
+William B Lambert 23 minutes 47 seconds
+So let's do that. So this will be relatively short, because again, you guys took this in.
+William B Lambert 23 minutes 58 seconds
+with Professor Herman. So actually, I'm going to, I'm going to put up the screen on my end. So, and turn the projector off.
+William B Lambert 24 minutes 8 seconds
+So, oh wait.
+William B Lambert 24 minutes 11 seconds
+The.
+William B Lambert 24 minutes 12 seconds
+Viktor is laptop, right there it is, yeah.
+William B Lambert 24 minutes 20 seconds
+OK, beautiful. So you guys can see on the screen. Yes.
+SD
+Susan Dang
+24 minutes 27 seconds24:27
+Susan Dang 24 minutes 27 seconds
+Yes, we could.
+
+William B Lambert
+24 minutes 28 seconds24:28
+William B Lambert 24 minutes 28 seconds
+Okay, beautiful. Okay, so forecasting time series methods, again, I'm going to go through, try and go through quickly, is that in the exponential smoothing, the
+William B Lambert 24 minutes 50 seconds
+Kind of turn that, keep that from.
+William B Lambert 24 minutes 54 seconds
+What's that? You said it just wants to be more. Yeah, it does.
+William B Lambert 25 minutes 1 second
+Tell you what we're going to do here. Minimize that guy. We're going to minimize him totally. We're going to minimize that. I'm going to open up.
+
+Dale Brittain
+25 minutes 16 seconds25:16
+Dale Brittain 25 minutes 16 seconds
+So, you have that screen to the to the to the right of the whiteboard.
+
+William B Lambert
+25 minutes 22 seconds25:22
+William B Lambert 25 minutes 22 seconds
+Yeah, let me, let me just try, let me just try something new here.
+
+Dale Brittain
+25 minutes 23 seconds25:23
+Dale Brittain 25 minutes 23 seconds
+Is it?
+
+William B Lambert
+25 minutes 26 seconds25:26
+William B Lambert 25 minutes 26 seconds
+And.
+William B Lambert 25 minutes 34 seconds
+Is that big old white thing?
+William B Lambert 25 minutes 38 seconds
+Is that good or no?
+William B Lambert 25 minutes 42 seconds
+Is it better just to work off to the side of the screen, you think?
+
+Dale Brittain
+25 minutes 48 seconds25:48
+Dale Brittain 25 minutes 48 seconds
+Are you, you're not going to do the note, the paint on the, on that, on your screen, are you? You just want to draw? Because I was going to say, if you want to have the slide up, isn't there a screen in the room to the far right, like the second or third screen?
+
+William B Lambert
+26 minutes 6 seconds26:06
+William B Lambert 26 minutes 6 seconds
+There we go.
+William B Lambert 26 minutes 15 seconds
+on a duplicated. I'm sorry, this is just like driving me nuts. No, what I want to do is I want to do this.
+William B Lambert 26 minutes 26 seconds
+monitors.
+William B Lambert 26 minutes 29 seconds
+On the projector, the right monitor, and it was this 10.
+William B Lambert 26 minutes 37 seconds
+Looks bad.
+William B Lambert 26 minutes 41 seconds
+So is an opinion.
+William B Lambert 26 minutes 44 seconds
+There, OK.
+
+Dale Brittain
+26 minutes 47 seconds26:47
+Dale Brittain 26 minutes 47 seconds
+Now you just need to share that far right screen. Like...
+
+William B Lambert
+27 minutes27:00
+William B Lambert 27 minutes
+And thanks for Dale working with me last, after class, last time to get the confidence that we can draw on the screen. Okay, so
+William B Lambert 27 minutes 13 seconds
+On the sharing, do you see what are you seeing?
+
+Dale Brittain
+27 minutes 16 seconds27:16
+Dale Brittain 27 minutes 16 seconds
+Yeah, you're so close. You just need to hit the share button on the far right monitor down below.
+
+William B Lambert
+27 minutes 22 seconds27:22
+William B Lambert 27 minutes 22 seconds
+Yeah, that's that one.
+William B Lambert 27 minutes 26 seconds
+That is that one.
+
+Dale Brittain
+27 minutes 34 seconds27:34
+Dale Brittain 27 minutes 34 seconds
+Because technically right now we're just seeing your webcam. We're not seeing the slide being shared because, you know what I'm saying, like...
+
+William B Lambert
+27 minutes 44 seconds27:44
+William B Lambert 27 minutes 44 seconds
+I don't understand why though. I just said share the right screen.
+William B Lambert 27 minutes 53 seconds
+I apologize for this one.
+William B Lambert 27 minutes 56 seconds
+Appointment center.
+SD
+Susan Dang
+28 minutes 14 seconds28:14
+Susan Dang 28 minutes 14 seconds
+Are you just showing the time series method assumptions?
+
+William B Lambert
+28 minutes 17 seconds28:17
+William B Lambert 28 minutes 17 seconds
+Yes, yeah, yeah.
+SD
+Susan Dang
+28 minutes 19 seconds28:19
+Susan Dang 28 minutes 19 seconds
+Yeah, it's showing. Yeah, we do.
+
+William B Lambert
+28 minutes 19 seconds28:19
+William B Lambert 28 minutes 19 seconds
+Do you see that? Oh, okay. Alright, good to go. Good to go. Perfect.
+
+Dale Brittain
+28 minutes 22 seconds28:22
+Dale Brittain 28 minutes 22 seconds
+Oh my bad, that must be on my side then.
+
+William B Lambert
+28 minutes 25 seconds28:25
+William B Lambert 28 minutes 25 seconds
+Okay, great. Thanks very much again. Sorry for the working it out there.
+William B Lambert 28 minutes 32 seconds
+Ohh.
+William B Lambert 28 minutes 34 seconds
+So this is the idea of this particular method, any time series, is that, you know, there's a break between time series and causal forecasting. Causal means I look and I'm going to forecast because I know that this growth is highly dependent
+William B Lambert 28 minutes 53 seconds
+on, you know, increase moving population moving into the city. And so I'm going to have higher growth. I could forecast higher sales. And that's remember what we did is we used regression to do something like that to identify those coefficients.
+William B Lambert 29 minutes 12 seconds
+that tell us how much of this change or how much of what I'm seeing in historical data is due to population, how much of this forecast data is due to employment. And so that's causal. Time series doesn't know any of that. All it knows is what happened yesterday.
+William B Lambert 29 minutes 32 seconds
+An.
+William B Lambert 29 minutes 33 seconds
+If we don't have a forecast, we just don't know any of this stuff. We just say, well, tomorrow looks like yesterday or this fall looks like last fall, right? So instead, we're going to put a little bit of math behind that and do this exponential smoothing thing. And so the.
+William B Lambert 29 minutes 52 seconds
+One of the formulas are not really tricky, they're pretty straightforward.
+William B Lambert 29 minutes 59 seconds
+And it's just that I have to keep track of my years, right? And so I'm going to have an index T, okay? And so I have to have an index T, why? Because in forecasting, I care about the time periods.
+William B Lambert 30 minutes 17 seconds
+One thing to note, this will be a quote dynamic model. You will hear static versus dynamic models.
+William B Lambert 30 minutes 26 seconds
+And maybe I already know this, but a static model means what happens in one time period is not dependent.
+William B Lambert 30 minutes 38 seconds
+on, I'm sorry, is not affected by what happened in the previous period if it changes. Okay, so in a dynamic model,
+William B Lambert 30 minutes 51 seconds
+Where things are changing tomorrow.
+William B Lambert 30 minutes 56 seconds
+How I forecast tomorrow depends on how today ends. All right? And the day after tomorrow depends on how the day before it, tomorrow, ends. We call those initial conditions. The initial conditions change. That's dynamic. That's like your cash flow models.
+William B Lambert 31 minutes 15 seconds
+The simple one we had, all right, there was no change because we just said, okay, all the transactions are the same, right? All the costs are the same. So that technically the way we did it with the data that we had, we could call that a static model because time really didn't matter, all right? But except for the discount rate. But
+William B Lambert 31 minutes 35 seconds
+Now we're going to make it dynamic. And what does dynamic mean? It means that I have, let's say, some data. I've got data over here. All right. And I've got data. I got a time period. We'll call it T1, 2, 3, 4. I've got data, which I'm going to signify as D4T.
+
+Dale Brittain
+31 minutes 57 seconds31:57
+Dale Brittain 31 minutes 57 seconds
+I hate, I hate to break your rhythm. Can we zoom in? Remember how we zoomed in on the whiteboard?
+
+William B Lambert
+32 minutes 4 seconds32:04
+William B Lambert 32 minutes 4 seconds
+Oh, you're on the camera, aren't you?
+Dale Brittain
+32 minutes 6 seconds32:06
+Dale Brittain 32 minutes 6 seconds
+Yeah, we're seeing it. Like you could turn off the, yeah, buddy. Yeah. Sweet.
+
+William B Lambert
+32 minutes 7 seconds32:07
+William B Lambert 32 minutes 7 seconds
+Yeah.
+William B Lambert 32 minutes 13 seconds
+Well, that was too much.
+William B Lambert 32 minutes 17 seconds
+I need everybody else to give me a thumbs up that you can see it once I get centered here, okay?
+
+Dale Brittain
+32 minutes 22 seconds32:22
+Dale Brittain 32 minutes 22 seconds
+Yep, back a little bit.
+Dale Brittain 32 minutes 25 seconds
+And up. Yeah, that's good for me, Susan, you guys.
+
+William B Lambert
+32 minutes 31 seconds32:31
+William B Lambert 32 minutes 31 seconds
+Is that going to be too small or can you see it?
+SD
+Susan Dang
+32 minutes 34 seconds32:34
+Susan Dang 32 minutes 34 seconds
+No, I can see it.
+
+William B Lambert
+32 minutes 37 seconds32:37
+William B Lambert 32 minutes 37 seconds
+Okay.
+
+Dale Brittain
+32 minutes 37 seconds32:37
+Dale Brittain 32 minutes 37 seconds
+Way better. Thank you.
+JH
+Jordyn Heidrich
+32 minutes 37 seconds32:37
+Jordyn Heidrich 32 minutes 37 seconds
+We can see.
+AL
+Adina Lobato
+32 minutes 38 seconds32:38
+Adina Lobato 32 minutes 38 seconds
+I think it's okay.
+
+William B Lambert
+32 minutes 40 seconds32:40
+William B Lambert 32 minutes 40 seconds
+Okay, great. Thank you very much. All right, so the data, let's say that in period one, it's going to be 50. In period 2, it's 60, 70, and 80. Let's just say this is demand that we have, right? Okay, I have that, but the question is, how did I do all my forecasts? Well, if you know waiting,
+William B Lambert 33 minutes 1 second
+weighting moving average, those are backward looking. I start down at the bottom and I look backwards. So when I have a forecast for next month, let's say a three-month moving average, I have a forecast for next month, then I take the data from this month, the month prior, and the month prior, all right, to come up with that forecast.
+William B Lambert 33 minutes 21 seconds
+When we do exponential smoothing, we have to kickstart it. It's from the top down. And so in a traditional sense, which you learned before is what we're going to show here real quick is I'm going to, I'm trying to forecast for period 5 because I don't know what the demand's going to be.
+William B Lambert 33 minutes 43 seconds
+Alright, so I have to kick start with period one.
+William B Lambert 33 minutes 48 seconds
+And I need to make a forecast.
+William B Lambert 33 minutes 53 seconds
+That starts on period two.
+William B Lambert 33 minutes 57 seconds
+Right? I'm looking at my back data. And oh, by the way, when we do this, we can tune our models because we have coefficients and we can see how good is the model forecasting our past demand. Is that the same as like bootstrapping? Is that just another word or is bootstrapping something else? I'm not sure.
+William B Lambert 34 minutes 16 seconds
+Okay, sorry. And so we don't have a forecast in our first period, so we just use the data that we have and we call it 50. All right? Because we don't know.
+William B Lambert 34 minutes 30 seconds
+So what's our formula that we're going to work? We're going to say F of t + 1. So the index of the next period equals alpha times the demand in the previous period plus...
+William B Lambert 34 minutes 47 seconds
+one minus alpha times the forecast in the previous period. Okay, so what that means is now I'm going to change colors. I hope you guys can see it on the thing. I'm looking for this is
+William B Lambert 35 minutes 7 seconds
+Going to be f + t + 1 is now F2, so F2 equals.
+William B Lambert 35 minutes 15 seconds
+Right? Alpha, and I'm giving you the letters, we'll fill in the numbers in there. Alpha times dt, which is this number.
+William B Lambert 35 minutes 26 seconds
+Plus on minus alpha.
+William B Lambert 35 minutes 30 seconds
+Times FT, which is this number.
+William B Lambert 35 minutes 35 seconds
+Okay? Makes sense? That's our formula. What is alpha? They call it a quote smoothing coefficient.
+William B Lambert 35 minutes 44 seconds
+I'm a different guy. I say it reflects how much we want to wait.
+William B Lambert 35 minutes 52 seconds
+the demand as opposed to our forecast.
+William B Lambert 35 minutes 57 seconds
+So, the thing about alpha is it adds up to one, so alpha and one minus alpha sum to one. Why? Because alpha needs to be between zero and one.
+William B Lambert 36 minutes 16 seconds
+And.
+William B Lambert 36 minutes 18 seconds
+Is it a probability? Alpha plus, yeah.
+William B Lambert 36 minutes 23 seconds
+Alpha plus 1 minus alpha equals 1. All right.
+William B Lambert 36 minutes 31 seconds
+Because it is exactly like a probability, OK?
+William B Lambert 36 minutes 35 seconds
+Because if you see that alpha minus alpha leaves 1 equals 1.
+William B Lambert 36 minutes 40 seconds
+So.
+William B Lambert 36 minutes 42 seconds
+The Alpha.
+William B Lambert 36 minutes 45 seconds
+determines how much faith I have in my new model. Why? Because if I set alpha equal to 1, I'm not even looking at the forecast. That's the same as me going, I don't care about this stupid model. I'm just going to use yesterday if alpha was 1.
+William B Lambert 37 minutes 3 seconds
+Right.
+William B Lambert 37 minutes 5 seconds
+If alpha is 0, then I wouldn't even be looking at my past data. I get one kickstart, and then all I'd be looking at is the forecast. That wouldn't work, because all the forecasts would probably be the same. Make sense? So that's...
+
+Dale Brittain
+37 minutes 21 seconds37:21
+Dale Brittain 37 minutes 21 seconds
+So, it's like your confidence in your guesses is that?
+
+William B Lambert
+37 minutes 26 seconds37:26
+William B Lambert 37 minutes 26 seconds
+Well, actually, it has to do with when they call it a smooth, I'm a weird guy. I have an explanation that I can understand and then a mathematical reason for it. It has to do with how much you want to smooth the thing out because
+
+Dale Brittain
+37 minutes 38 seconds37:38
+Dale Brittain 37 minutes 38 seconds
+Yeah.
+
+William B Lambert
+37 minutes 45 seconds37:45
+William B Lambert 37 minutes 45 seconds
+If you have something, the higher that is, the more ragged. If you have variable data and that's really high, your forecast is going to be really variable. It's going to squiggle A lot. All right? The lower I get that, the smoother this is going to be.
+William B Lambert 38 minutes 3 seconds
+However, the forecast follows it. So what you're doing here is you're tuning it to get the quote smoothness that you want. Does that make sense?
+
+Dale Brittain
+38 minutes 13 seconds38:13
+Dale Brittain 38 minutes 13 seconds
+Yeah, I think in it was an R-value and there was like a plotting chart that you could move parts around and the further the dots were away, the higher the R-value was. This is, I forgot.
+
+William B Lambert
+38 minutes 27 seconds38:27
+William B Lambert 38 minutes 27 seconds
+That's not this. You're right. That is a measure of how good your model is, or how much of your model is explained by the variables. This is different. All I would say is this, is whenever you're looking at someone's model, these little coefficients,
+
+Dale Brittain
+38 minutes 35 seconds38:35
+Dale Brittain 38 minutes 35 seconds
+Oh, okay. Thanks.
+
+William B Lambert
+38 minutes 45 seconds38:45
+William B Lambert 38 minutes 45 seconds
+That's where they're getting the output that they want. So like you turn around and wait a minute, they had two models going on and this is all how they do all government expenditures. They need to have quantitative models, right? These are the things they screw with. It's like how much does that you want to put in the current value or the current?
+William B Lambert 39 minutes 5 seconds
+observation that you have versus the future observation, right? Well, it's not a future observation, it's my modeling technique based on previous. Yeah, your future. How well my model works. How much not faith, but emphasis. Is that better? Yeah, yeah, how much weight, yeah, or emphasis, yeah.
+William B Lambert 39 minutes 24 seconds
+Okay, so in this case, F2, let's say alpha is equal to 0.3. And 1 minus alpha's got to be 0.7 because the two of them add together. Give me one. So F2 is going to be 0.3.
+William B Lambert 39 minutes 43 seconds
+Times my D of T one, yeah, that's going to be one, that's going to be one.
+William B Lambert 39 minutes 52 seconds
+Aid.
+William B Lambert 39 minutes 53 seconds
+The one is 50.
+William B Lambert 39 minutes 56 seconds
+plus minus alpha 0.7, forecast and one is 50.
+William B Lambert 40 minutes 3 seconds
+Well, you know, 30% times 50 plus 70% times 50 is 50.
+William B Lambert 40 minutes 13 seconds
+This is always going to equal the same as that, because by design, I pick the same number up here. If I take half of a number and add it to half of a number, I get the number. That's all that's going on here. Doesn't matter the alpha. So here we got 50. So everybody follow that? Yeah. Okay. Let's do F3.
+William B Lambert 40 minutes 34 seconds
+So F3, I'm looking at this, and that equals 0.3 times D2. So now I'm getting a change, 60 plus 1 minus alpha 0.7.
+William B Lambert 40 minutes 52 seconds
+times the 50 from the previous forecast. So to get this, I'm looking at those two times 50. Right now, I don't know what that is. This is 18, this is 35, and that equals 40, 53, if I'm not mistaken.
+William B Lambert 41 minutes 13 seconds
+Does that make sense?
+William B Lambert 41 minutes 15 seconds
+This is what you did last time. Again, this is backward looking.
+William B Lambert 41 minutes 22 seconds
+What we're going to do now is we're going to go a little bit forward-looking.
+William B Lambert 41 minutes 31 seconds
+I'm gonna show you.
+William B Lambert 41 minutes 35 seconds
+And that's for the, you know.
+William B Lambert 41 minutes 41 seconds
+So in this case, what we want to do is we're going to add a growth term.
+William B Lambert 41 minutes 49 seconds
+to what we've done up here.
+William B Lambert 41 minutes 52 seconds
+And this is for use in our cash flows, our profitability. We're not going to say it's the same on the transactions. All right? Yeah, I'm going to erase this. Is that okay, guys?
+
+Dale Brittain
+42 minutes 2 seconds42:02
+Dale Brittain 42 minutes 2 seconds
+Yeah.
+
+William B Lambert
+42 minutes 3 seconds42:03
+William B Lambert 42 minutes 3 seconds
+OK.
+William B Lambert 42 minutes 6 seconds
+So now I want to add a growth term.
+William B Lambert 42 minutes 13 seconds
+And so, in this case...
+William B Lambert 42 minutes 23 seconds
+I'm gonna do the forecast first.
+William B Lambert 42 minutes 27 seconds
+Okay.
+William B Lambert 42 minutes 29 seconds
+And so I'm going to give you a forecast. The first thing we're going to do is do the forecast, and then we're going to add an error to it. Okay, and the error term we're going to call epsilon just because we got to be fancy about it. And then
+William B Lambert 42 minutes 48 seconds
+Two.
+William B Lambert 42 minutes 49 seconds
+Call it E. This is our error term.
+William B Lambert 42 minutes 55 seconds
+For this.
+William B Lambert 42 minutes 58 seconds
+I have our growth term on plus G.
+William B Lambert 43 minutes 4 seconds
+And then #3 is we're going to come back and calculate the actual forecasted or simulated demand.
+William B Lambert 43 minutes 14 seconds
+Which is going to equal, and I think this is t + 1.
+William B Lambert 43 minutes 20 seconds
+Equals.
+William B Lambert 43 minutes 22 seconds
+Make sure I don't want to write this wrong.
+William B Lambert 43 minutes 26 seconds
+Our FT.
+William B Lambert 43 minutes 31 seconds
+Times one plus our error term.
+William B Lambert 43 minutes 37 seconds
+Yeah.
+William B Lambert 43 minutes 39 seconds
+So this is DT, sorry.
+
+Dale Brittain
+43 minutes 44 seconds43:44
+Dale Brittain 43 minutes 44 seconds
+Is that the next slide?
+
+William B Lambert
+43 minutes 45 seconds43:45
+William B Lambert 43 minutes 45 seconds
+She would not.
+William B Lambert 43 minutes 49 seconds
+Actually, yes, just a second.
+William B Lambert 44 minutes 5 seconds
+Actually, I don't have a slide on this one.
+William B Lambert 44 minutes 9 seconds
+So we're just going to go off the board. Can you see the board?
+
+Dale Brittain
+44 minutes 11 seconds44:11
+Dale Brittain 44 minutes 11 seconds
+Okay, I thought you, there is a, you sure? Because I thought you squeezed, you flew through it. I saw it.
+
+William B Lambert
+44 minutes 14 seconds44:14
+William B Lambert 44 minutes 14 seconds
+I did.
+
+Dale Brittain
+44 minutes 19 seconds44:19
+Dale Brittain 44 minutes 19 seconds
+I thought I saw some of these variables.
+
+William B Lambert
+44 minutes 23 seconds44:23
+William B Lambert 44 minutes 23 seconds
+Karen.
+William B Lambert 44 minutes 26 seconds
+Through them.
+William B Lambert 44 minutes 42 seconds
+Gonna have to do it on the board, and we're gonna build it in Excel in just a minute, and that'll make much more sense when we do it in Excel.
+
+Dale Brittain
+44 minutes 44 seconds44:44
+Dale Brittain 44 minutes 44 seconds
+That's cool. That's cool.
+
+William B Lambert
+44 minutes 51 seconds44:51
+William B Lambert 44 minutes 51 seconds
+So in any event, so what I'm looking at here is I've got, I'm building the demand, okay? I have to build the simulated demand.
+William B Lambert 45 minutes 9 seconds
+So I'm going to give you a forecast for T.
+William B Lambert 45 minutes 14 seconds
+I'll tell you what, let's do it in Excel since that would be easier. I'm sorry. Let me just do it in Excel because that way.
+William B Lambert 45 minutes 23 seconds
+Um...
+William B Lambert 45 minutes 27 seconds
+I, sorry, I had the freaking slideshow.
+William B Lambert 45 minutes 32 seconds
+Certainty.
+William B Lambert 45 minutes 52 seconds
+And.
+
+Dale Brittain
+45 minutes 57 seconds45:57
+Dale Brittain 45 minutes 57 seconds
+It looks like you're sharing the program, not your screen, on the other monitor.
+
+William B Lambert
+46 minutes 5 seconds46:05
+William B Lambert 46 minutes 5 seconds
+I'll be there. Yeah, I'll be there in just a second. Just a second, okay?
+William B Lambert 46 minutes 31 seconds
+So, minimize this, we're gonna share the...
+William B Lambert 46 minutes 37 seconds
+Left one, or...
+William B Lambert 46 minutes 43 seconds
+Shut this off.
+William B Lambert 46 minutes 52 seconds
+You don't want that.
+William B Lambert 46 minutes 55 seconds
+And then share.
+William B Lambert 46 minutes 59 seconds
+Can you see the screen?
+
+Dale Brittain
+47 minutes 1 second47:01
+Dale Brittain 47 minutes 1 second
+Yep, got an Excel file on our.
+
+William B Lambert
+47 minutes 3 seconds47:03
+William B Lambert 47 minutes 3 seconds
+Yeah, much better. Okay, so there I've got my stuff.
+William B Lambert 47 minutes 10 seconds
+And so, but I'm not showing it here, left on here.
+William B Lambert 47 minutes 17 seconds
+So there's my formulas that I just wrote up there. I got a FT plus 1.
+William B Lambert 47 minutes 23 seconds
+And it's looking at the previous demand and the demand here is a simulated, okay, transactions.
+William B Lambert 47 minutes 33 seconds
+and is multiplied by the forecast. So I start up here. Here's the alpha that I just said a second ago.
+William B Lambert 47 minutes 39 seconds
+Here, G is going to be our annual expected growth. Mu is the same thing as that E, all right? And then here's the transactions that are forecast. And D now is not our data, but our simulated transactions.
+William B Lambert 47 minutes 56 seconds
+Okay, so let's start building that and we'll see how it goes.
+William B Lambert 48 minutes 2 seconds
+What do we need? First thing we need is we gotta have, excuse me, I'm far from there. First thing we gotta have is we've gotta have some years.
+William B Lambert 48 minutes 12 seconds
+And we'll do that down here, but let's first do the parameters. So parameters.
+William B Lambert 48 minutes 19 seconds
+Okay, the first one is going to be the alpha.
+William B Lambert 48 minutes 24 seconds
+Oh, yeah, I'm sorry. Did you guys download on the modules? There should be a forecast, so you don't have to do this from scratch. Yeah, sorry about that. I put it under...
+William B Lambert 48 minutes 38 seconds
+I believe it's the forecasting.
+William B Lambert 48 minutes 43 seconds
+Haupt.
+William B Lambert 48 minutes 44 seconds
+Act.
+William B Lambert 48 minutes 51 seconds
+I had that, just give me two seconds.
+William B Lambert 48 minutes 55 seconds
+There's a VBA, wait, no, no, no, no, no, no.
+William B Lambert 49 minutes 18 seconds
+forecasting start. Okay, it should be there now. Down at the bottom, forecasting start.
+William B Lambert 49 minutes 25 seconds
+That way you don't have to type the beginning stuff up. It looks like that. It looks exactly like my sheet.
+William B Lambert 49 minutes 32 seconds
+So, I'll give you a minute to go ahead and download that guy.
+William B Lambert 49 minutes 40 seconds
+And now we just start typing the parameters and stuff. There's going to be alpha. Let's just call this guy growth. And the next guy we're going to call error.
+William B Lambert 50 minutes
+I'll wait for you for sleep.
+
+Dale Brittain
+50 minutes 2 seconds50:02
+Dale Brittain 50 minutes 2 seconds
+Is anybody else seeing it in Canvas? I see VB demo. Is it in the module?
+Dale Brittain 50 minutes 11 seconds
+Two or three?
+
+William B Lambert
+50 minutes 11 seconds50:11
+William B Lambert 50 minutes 11 seconds
+Yeah, just can you just refresh your browser?
+William B Lambert 50 minutes 16 seconds
+It's down at the very bottom where it says forecasting start.
+
+Dale Brittain
+50 minutes 22 seconds50:22
+Dale Brittain 50 minutes 22 seconds
+Yes, sir. Thank you.
+
+William B Lambert
+50 minutes 24 seconds50:24
+William B Lambert 50 minutes 24 seconds
+Sorry, I didn't have it there earlier.
+William B Lambert 50 minutes 32 seconds
+OK, just like, yeah.
+William B Lambert 50 minutes 34 seconds
+I was slow on that, so I want to give you time to catch up.
+William B Lambert 50 minutes 42 seconds
+Okay, we feel good?
+William B Lambert 50 minutes 47 seconds
+All right, so for alpha, we're going to say it's in this case, 0.3.
+William B Lambert 50 minutes 52 seconds
+For our growth rate, we're going to say it's 2%.
+William B Lambert 50 minutes 59 seconds
+And then, for our...
+William B Lambert 51 minutes 2 seconds
+Deviation. This is going to be a percent, but we're going to put it in as a whole number and we'll see why in a minute.
+William B Lambert 51 minutes 9 seconds
+Has to do with a random formula that we're going to use.
+William B Lambert 51 minutes 13 seconds
+That's Erin percent, growth is in percent.
+William B Lambert 51 minutes 20 seconds
+That make sense?
+William B Lambert 51 minutes 25 seconds
+Actually, I'm sorry, let me take these out because we got to name them first.
+William B Lambert 51 minutes 35 seconds
+Everybody's staying okay.
+William B Lambert 51 minutes 38 seconds
+I really hate the online thing because I can't tell.
+
+Dale Brittain
+51 minutes 41 seconds51:41
+Dale Brittain 51 minutes 41 seconds
+It's looking good. I'm seeing exactly what you're seeing, Susan. Yep.
+
+William B Lambert
+51 minutes 41 seconds51:41
+William B Lambert 51 minutes 41 seconds
+So many.
+William B Lambert 51 minutes 44 seconds
+Okay.
+SD
+Susan Dang
+51 minutes 44 seconds51:44
+Susan Dang 51 minutes 44 seconds
+No, we're good.
+
+William B Lambert
+51 minutes 46 seconds51:46
+William B Lambert 51 minutes 46 seconds
+Yep. Okay, up at the formulas, I went to the formulas tab. I'm going to create from selection the names, and it'll be from the left column.
+William B Lambert 51 minutes 59 seconds
+So and then I click on them and look up to the left and I have my named ranges. Okay, now let's just, and we're going to do what are our models going to look like here to do these transaction pieces. We're just going to start like we're doing the cash flow.
+William B Lambert 52 minutes 18 seconds
+We're not going to do the whole thing at all. We're just going to do a few years.
+William B Lambert 52 minutes 24 seconds
+I'm calling him Year.
+William B Lambert 52 minutes 26 seconds
+Project year, so year is going to be 2026, 2027.
+William B Lambert 52 minutes 34 seconds
+2028.
+William B Lambert 52 minutes 37 seconds
+On.
+William B Lambert 52 minutes 39 seconds
+And those projects years, the years in the project is 0123.
+William B Lambert 52 minutes 49 seconds
+Does that make sense? We're good with that.
+William B Lambert 52 minutes 56 seconds
+Now underneath, we'll start, and I'm going to put this initial investment in here, just so you see it, that it looks like the model that we dealt with already, okay? And it's negative 700.
+William B Lambert 53 minutes 14 seconds
+Again, the idea here is probably going to be that you'll have a good start on doing your homework.
+William B Lambert 53 minutes 21 seconds
+Simon.
+William B Lambert 53 minutes 28 seconds
+So now I'm going to call this the forecast.
+William B Lambert 53 minutes 33 seconds
+And then, underneath, I'm going to call it the random error.
+William B Lambert 53 minutes 38 seconds
+And then finally, I'm going to say simulated transactions.
+William B Lambert 53 minutes 47 seconds
+So again, what we're going to try and get at is I'm following this stuff up at the top. The forecasted transactions, I'm going to have to have a formula for that, then the error, and then the simulated transactions.
+William B Lambert 54 minutes 3 seconds
+And those will follow these three cells.
+William B Lambert 54 minutes 14 seconds
+Okay, so in the first cell...
+William B Lambert 54 minutes 17 seconds
+I've got to give you a value to kickstart this thing. And that's the way these forward-looking models are. They have to be kickstarted. And oops, I'm sorry, these aren't dollars, these are transactions.
+William B Lambert 54 minutes 39 seconds
+Oh no, I'm sorry, that was right. Initial investment, it is dollars. These down here are transactions. So these are going to be like numbers.
+William B Lambert 54 minutes 50 seconds
+Just make it easier to see.
+William B Lambert 54 minutes 58 seconds
+Okay, we got them all. So that one, according to my cell style, is yellow. Because that's a...
+William B Lambert 55 minutes 7 seconds
+That's an important.
+William B Lambert 55 minutes 11 seconds
+But in this first thing, I can't, I can't really kick-start it, alright?
+William B Lambert 55 minutes 17 seconds
+I need this percent. And so that I could up here and say equal to percent.
+William B Lambert 55 minutes 28 seconds
+Okay.
+William B Lambert 55 minutes 31 seconds
+Sorry, that that's.
+William B Lambert 55 minutes 34 seconds
+Having a hard night, guys. The error is going to be 5, but I'm going to turn that into a percent in just a minute.
+William B Lambert 55 minutes 43 seconds
+And then I'm going to have the, here is the original, if you look up DT equals the forecast here,
+William B Lambert 55 minutes 56 seconds
+Times one.
+William B Lambert 56 minutes 7 seconds
+Hey, Robert.
+William B Lambert 56 minutes 11 seconds
+This so.
+William B Lambert 56 minutes 19 seconds
+Well, the problem is the random error is 5, but it's not.
+William B Lambert 56 minutes 26 seconds
+Five, I want it. I'm expressing it as a number as a percent. OK, so the error is this percent.
+William B Lambert 56 minutes 35 seconds
+Why do I do that? Well...
+William B Lambert 56 minutes 39 seconds
+I want to add some randomness to this, okay? And so what I can use is instead of the number 5, I'm going to use...
+William B Lambert 56 minutes 53 seconds
+The function ran between.
+William B Lambert 56 minutes 58 seconds
+Ram between is gonna return an integer.
+William B Lambert 57 minutes 3 seconds
+It's going to return an integer between 2 numbers.
+William B Lambert 57 minutes 8 seconds
+Okay.
+William B Lambert 57 minutes 9 seconds
+And so the mu that we're going to give it up there, that error, I'm going to say is the maximum percent that it can go down or it can go up. Because then Excel has a bucket and it's going to return either negative 5, negative 4, negative 3, 2, 1, 0.
+William B Lambert 57 minutes 28 seconds
+one, two, three, 4, 5. It's going to turn one of those integers in that range. And I could set that range at whatever I want. Now it'll return that number, but then I got to divide it by 100 to get it as a decimal percent.
+William B Lambert 57 minutes 43 seconds
+So what I'm going to do here is I'm going to say ran between.
+William B Lambert 57 minutes 48 seconds
+I'm going to save this, but I need it as an equal sign.
+William B Lambert 57 minutes 57 seconds
+And then this is the number itself with a positive sign, so I'm gonna go OK.
+William B Lambert 58 minutes 6 seconds
+See. Hang a bear.
+William B Lambert 58 minutes 10 seconds
+Now I use the word error. I wonder if that's okay.
+William B Lambert 58 minutes 19 seconds
+There we go.
+William B Lambert 58 minutes 21 seconds
+Okay, so this is gonna be my blue.
+William B Lambert 58 minutes 26 seconds
+Why did I need to do this with the full numbers instead of just putting the percents in there? Because this thing returns an integer. So if I put 0.05 here,
+William B Lambert 58 minutes 42 seconds
+There's no number between, the only integer between 0.05 and negative 0.05 and 0.5 is 0. So it won't give me anything. So I want to think about this for a minute, okay? Let's just talk about it. So this function rand between is going to give me a number.
+William B Lambert 59 minutes 2 seconds
+between negative 5, because I put negative error, and positive 5, which is my error. That's so. Okay? So we're going to take an integer between those two.
+William B Lambert 59 minutes 15 seconds
+But I need this as a percent. So once it pulls that number, then I divide that by 100.
+William B Lambert 59 minutes 26 seconds
+That sounds weird.
+William B Lambert 59 minutes 31 seconds
+Does any does anybody have any questions on that?
+William B Lambert 59 minutes 35 seconds
+Again, I can't see online, so if you have a question, I want I need you to ask me.
+
+Dale Brittain
+59 minutes 41 seconds59:41
+Dale Brittain 59 minutes 41 seconds
+I'm still struggling with getting the values as the parameters. It keeps...
+Dale Brittain 59 minutes 50 seconds
+Oh, I didn't name it Air.
+
+William B Lambert
+59 minutes 51 seconds59:51
+William B Lambert 59 minutes 51 seconds
+If you don't name an error, that's okay. Just point to the cell. That's fine.
+William B Lambert 59 minutes 57 seconds
+Yeah, can you quickly show the...
+William B Lambert 1 hour 1 second
+For the what? Simulated transactions. Oh, yeah. Well, OK, next next formula, but is everybody good on the random?
+William B Lambert 1 hour 11 seconds
+Okay, so now I've got this guy, oops.
+William B Lambert 1 hour 15 seconds
+F2, this guy does what? Up here, my formula for it is the simulated transactions, which we're calling D in this case, because it's standard letters, whatever. It equals the forecast and the period up there. We had to kickstart it because we didn't have one.
+William B Lambert 1 hour 34 seconds
+So we gave it a number, multiplied by 1 plus the error. In other words, if that was a negative, it'd go down. If it's a positive, it'll go up.
+William B Lambert 1 hour 47 seconds
+And when I hit the enter, it changed to a negative 0.4, and now the simulated transactions are below what our original forecast was.
+William B Lambert 1 hour 1 minute
+Okay.
+
+Dale Brittain
+1 hour 1 minute 3 seconds1:01:03
+Dale Brittain 1 hour 1 minute 3 seconds
+I'm sorry, how do you get it to spit out a random number? Like what did you do to refresh it to?
+
+William B Lambert
+1 hour 1 minute 10 seconds1:01:10
+William B Lambert 1 hour 1 minute 10 seconds
+Go ahead and hit F9. Hit F9 on your keyboard. Every time you do that, Excel quote recalculates. Yeah, do you have, if you go up to your formula bar and off to the right calculation options, do you have that set to automatic?
+
+Dale Brittain
+1 hour 1 minute 29 seconds1:01:29
+Dale Brittain 1 hour 1 minute 29 seconds
+formula.
+
+William B Lambert
+1 hour 1 minute 32 seconds1:01:32
+William B Lambert 1 hour 1 minute 32 seconds
+Formula tab to the right it says Calculation Options.
+
+Dale Brittain
+1 hour 1 minute 35 seconds1:01:35
+Dale Brittain 1 hour 1 minute 35 seconds
+It's grayed out.
+
+William B Lambert
+1 hour 1 minute 39 seconds1:01:39
+William B Lambert 1 hour 1 minute 39 seconds
+Uh, escape out of your formula.
+
+Dale Brittain
+1 hour 1 minute 42 seconds1:01:42
+Dale Brittain 1 hour 1 minute 42 seconds
+Ah, yes, it is set to automatic.
+
+William B Lambert
+1 hour 1 minute 45 seconds1:01:45
+William B Lambert 1 hour 1 minute 45 seconds
+Okay, then you're good to go. Then what happens is what I want you to do is press the look at this cell and press the F9 key.
+William B Lambert 1 hour 1 minute 54 seconds
+And when you hit the F9 key, you'll see that it.
+William B Lambert 1 hour 1 minute 58 seconds
+That that random error changes, and our formula captures that.
+William B Lambert 1 hour 2 minutes 5 seconds
+Change.
+William B Lambert 1 hour 2 minutes 7 seconds
+in the OnePlus.
+William B Lambert 1 hour 2 minutes 10 seconds
+The error return.
+William B Lambert 1 hour 2 minutes 13 seconds
+Sound good?
+
+Dale Brittain
+1 hour 2 minutes 15 seconds1:02:15
+Dale Brittain 1 hour 2 minutes 15 seconds
+In theory, I just keep getting zero, zero, zero. I'm doing something wrong. I'll figure it out.
+
+William B Lambert
+1 hour 2 minutes 20 seconds1:02:20
+William B Lambert 1 hour 2 minutes 20 seconds
+Oh, no. Go to it and 1st check is your error percent 5.
+William B Lambert 1 hour 2 minutes 28 seconds
+the number 5.
+
+Dale Brittain
+1 hour 2 minutes 31 seconds1:02:31
+Dale Brittain 1 hour 2 minutes 31 seconds
+Yes.
+
+William B Lambert
+1 hour 2 minutes 32 seconds1:02:32
+William B Lambert 1 hour 2 minutes 32 seconds
+Okay, when you're down here for the rand error, rand between, excuse me, is the first term negative.
+William B Lambert 1 hour 2 minutes 41 seconds
+Of that cell.
+
+Dale Brittain
+1 hour 2 minutes 42 seconds1:02:42
+Dale Brittain 1 hour 2 minutes 42 seconds
+You have negative B 12.
+
+William B Lambert
+1 hour 2 minutes 45 seconds1:02:45
+William B Lambert 1 hour 2 minutes 45 seconds
+Okay, and then the then comma.
+
+Dale Brittain
+1 hour 2 minutes 46 seconds1:02:46
+Dale Brittain 1 hour 2 minutes 46 seconds
+Comma.
+Dale Brittain 1 hour 2 minutes 47 seconds
+B then comma just B12 close paren divided by 100.
+
+William B Lambert
+1 hour 2 minutes 53 seconds1:02:53
+William B Lambert 1 hour 2 minutes 53 seconds
+Check your cell formatting on that on those cells. I love it. Say it. Check your cell formatting.
+
+Dale Brittain
+1 hour 2 minutes 59 seconds1:02:59
+Dale Brittain 1 hour 2 minutes 59 seconds
+Oh, it's not two decimal places. That's, I'm a dingbat. Thank you.
+
+William B Lambert
+1 hour 3 minutes 5 seconds1:03:05
+William B Lambert 1 hour 3 minutes 5 seconds
+Yep. Okay. All right. Now let's go up to the next forecast period, which is this F t + 1, right? So in this case, we got to enter that formula up at the top that has the alpha. So let's do it. We use the same. So I'm using this one up at the very top, this guy right here. Let me highlight him in.
+William B Lambert 1 hour 3 minutes 27 seconds
+that yellow formula. So that's going to be equal, I'm a big parentheses guy, parentheses alpha, which is that cell right there, times the simulated transaction of the previous period.
+William B Lambert 1 hour 3 minutes 44 seconds
+Okay.
+William B Lambert 1 hour 3 minutes 47 seconds
+And then, plus...
+William B Lambert 1 hour 3 minutes 51 seconds
+On minus alpha, which I have my parameter back up there.
+William B Lambert 1 hour 3 minutes 57 seconds
+Times.
+William B Lambert 1 hour 4 minutes 1 second
+The forecast of the previous period.
+William B Lambert 1 hour 4 minutes 7 seconds
+Now, let's just stop there for a sec without a growth term.
+William B Lambert 1 hour 4 minutes 11 seconds
+And then we can take these other two and just drag them over.
+William B Lambert 1 hour 4 minutes 17 seconds
+And I'm going to take all those formulas and pull them off to the side.
+William B Lambert 1 hour 4 minutes 24 seconds
+If we hit F9, you see how little those things are changing?
+William B Lambert 1 hour 4 minutes 35 seconds
+Everybody with me?
+William B Lambert 1 hour 4 minutes 40 seconds
+I think so. This is how you would do a model that has, you want to introduce an error term, but it's a relatively smooth demand or something like that. But you still want to capture some uncertainty, right?
+William B Lambert 1 hour 4 minutes 58 seconds
+And of course, we've got 5% here. We could turn that, go up and change that to 10% if we want.
+William B Lambert 1 hour 5 minutes 4 seconds
+And now we're getting larger changes. But still, it's really close. It's not very, it's just bouncing around what our initial guess was.
+William B Lambert 1 hour 5 minutes 15 seconds
+So instead, we want to get a growth term, and that's this 1 plus G. And we have the growth here of 2%.
+William B Lambert 1 hour 5 minutes 24 seconds
+Okay, so to incorporate that, we're going to put it into our cell formula right there, F2.
+William B Lambert 1 hour 5 minutes 34 seconds
+We're going to multiply that by one.
+William B Lambert 1 hour 5 minutes 38 seconds
+plus our growth rate, which is 2%.
+William B Lambert 1 hour 5 minutes 47 seconds
+What did I do wrong?
+William B Lambert 1 hour 5 minutes 49 seconds
+Yes, I accepted.
+William B Lambert 1 hour 5 minutes 51 seconds
+Good.
+William B Lambert 1 hour 5 minutes 53 seconds
+Alpha 20.
+William B Lambert 1 hour 5 minutes 57 seconds
+City.
+William B Lambert 1 hour 6 minutes 2 seconds
+Yes.
+William B Lambert 1 hour 6 minutes 4 seconds
+OK, now all of a sudden I'm getting a growth function.
+William B Lambert 1 hour 6 minutes 9 seconds
+Does that make sense?
+William B Lambert 1 hour 6 minutes 13 seconds
+Everybody's seeing that, yeah, it's growing, but it can go down as well.
+William B Lambert 1 hour 6 minutes 18 seconds
+Let's induce an error term of like 50% just to go hog wild.
+William B Lambert 1 hour 6 minutes 25 seconds
+That thing's bouncing all over the place. All right. It's 14,000 here. On this rung, it's 14,000, 15, 16, 18. All right. And on the last one, it was going negative down below. That's what uncertainty means. We want to capture that. Next week, we'll do a simulation.
+William B Lambert 1 hour 6 minutes 45 seconds
+where we do 1000 trials. This is just how we're going to build it in there. Does that make sense?
+William B Lambert 1 hour 6 minutes 51 seconds
+So what do we want? Where do we want to put that? We want to put that back in our model that we looked at earlier.
+William B Lambert 1 hour 7 minutes 2 seconds
+That dude.
+William B Lambert 1 hour 7 minutes 7 seconds
+That would go here. So the question is, again, from a modeling standpoint, do you want to have multiple lines in here for that to show up in your cash flow model?
+William B Lambert 1 hour 7 minutes 23 seconds
+Nope.
+William B Lambert 1 hour 7 minutes 24 seconds
+Finance person does not want to see that. Accountants, I mean, their head will pop like popcorn kernels. They have their format. So that means we need to do that calculation somewhere else and report it in here. Does that make sense?
+William B Lambert 1 hour 7 minutes 41 seconds
+Okay, if we can find a...
+William B Lambert 1 hour 7 minutes 44 seconds
+compact way to do that.
+William B Lambert 1 hour 7 minutes 48 seconds
+We can do it from one cell to the next. I like breaking it down so I can see what's happening. The question is, can you get it all in that cell?
+William B Lambert 1 hour 8 minutes
+With one formula, I don't know if you can impress me.
+William B Lambert 1 hour 8 minutes 6 seconds
+I mean, you can think about it. There's a will, there's a way you can make it happen. Does that make sense?
+William B Lambert 1 hour 8 minutes 12 seconds
+Okay, let's go ahead and take another 5 minutes, and then when we come back, we're going to hit the tornado chart, and we're going to do the...
+William B Lambert 1 hour 8 minutes 23 seconds
+Hopefully get to the VTA.
+William B Lambert 1 hour 8 minutes 27 seconds
+You guys okay over there?
+William B Lambert 1 hour 8 minutes 30 seconds
+I don't see on the app. Okay, B. No, thank you. It's always just difficult.
+SD
+Susan Dang
+1 hour 8 minutes 31 seconds1:08:31
+Susan Dang 1 hour 8 minutes 31 seconds
+We're good. Thank you.
+Susan Dang 1 hour 8 minutes 38 seconds
+It is, especially with online and in class.
+
+William B Lambert
+1 hour 12 minutes 31 seconds1:12:31
+William B Lambert 1 hour 12 minutes 31 seconds
+Pick up now.
+William B Lambert 1 hour 12 minutes 33 seconds
+Yeah, I downloaded that, so...
+
+Dale Brittain
+1 hour 13 minutes 13 seconds1:13:13
+Dale Brittain 1 hour 13 minutes 13 seconds
+Looks like you stopped sharing the other screen. Okay, okay, cool.
+
+William B Lambert
+1 hour 13 minutes 16 seconds1:13:16
+William B Lambert 1 hour 13 minutes 16 seconds
+Yep, yep, come on just a second.
+William B Lambert 1 hour 13 minutes 30 seconds
+Okay.
+William B Lambert 1 hour 13 minutes 33 seconds
+Shut that down, shut this guy down.
+William B Lambert 1 hour 13 minutes 39 seconds
+So yeah, so let me show you this. Let me share. Thank you.
+William B Lambert 1 hour 13 minutes 45 seconds
+Dale, I'm counting on you to keep me straight on these things. I just...
+William B Lambert 1 hour 13 minutes 51 seconds
+Has anybody done a tornado diagram before?
+
+Dale Brittain
+1 hour 13 minutes 58 seconds1:13:58
+Dale Brittain 1 hour 13 minutes 58 seconds
+Never even heard of it.
+
+William B Lambert
+1 hour 14 minutes 1 second1:14:01
+William B Lambert 1 hour 14 minutes 1 second
+Okay, so the idea is this, we turned around and we just did uncertainty, right? So let me bring my thing back over here. And the finance guys came in and they, are you seeing the right screen with my model up there? The finance guys came in and they told us,
+William B Lambert 1 hour 14 minutes 20 seconds
+Hey, you need to do the discount rate and this adjustment to expected transactions. We think those are the two things that we're really going to ask the questions about. Why? Because we got a lot of information about those. Okay. And we're really, you know, we're working hard to see if we can get a better discount rate. We really think that's going to.
+William B Lambert 1 hour 14 minutes 40 seconds
+That's gonna, you know, make our projects push the needle. OK, that's a guess, and that's generally how people do that.
+William B Lambert 1 hour 14 minutes 50 seconds
+The reality is...
+William B Lambert 1 hour 14 minutes 52 seconds
+They don't know.
+William B Lambert 1 hour 14 minutes 54 seconds
+OK, they just don't know, and it's not their fault.
+William B Lambert 1 hour 15 minutes
+Because.
+William B Lambert 1 hour 15 minutes 2 seconds
+If you're not used to dealing with uncertainty.
+William B Lambert 1 hour 15 minutes 7 seconds
+Just don't know. You think about what you see in front of your face. That's the, I'm sure you guys heard the argument about the drunk walking around under the light post.
+William B Lambert 1 hour 15 minutes 19 seconds
+So he lost his keys. Yeah, 2:00 in the morning and there's a drunk walking around a light post. He's been doing it for 20 minutes. You go over, dude, what are you doing? He goes, I lost my keys. I go, you've been here for 1/2 hour. You haven't found him. He goes, I know, but this is the only place I know where to look. It's the only place I could see. Yeah. And so the idea of uncertainty is like that.
+William B Lambert 1 hour 15 minutes 39 seconds
+Ooh, I got my thing. I'm really going to nail it down. But the question is, does it even really matter? So that's what this tornado chart's about. Here's a formula, and I've got the Excel sheet. Did everybody see the tornado chart demo that I have there?
+SD
+Susan Dang
+1 hour 15 minutes 59 seconds1:15:59
+Susan Dang 1 hour 15 minutes 59 seconds
+We do.
+
+William B Lambert
+1 hour 16 minutes1:16:00
+William B Lambert 1 hour 16 minutes
+You've got it, Susan.
+SD
+Susan Dang
+1 hour 16 minutes 5 seconds1:16:05
+Susan Dang 1 hour 16 minutes 5 seconds
+Did you want to pull it up from the PowerPoint?
+
+William B Lambert
+1 hour 16 minutes 8 seconds1:16:08
+William B Lambert 1 hour 16 minutes 8 seconds
+Uh, no, no, I mean the...
+William B Lambert 1 hour 16 minutes 12 seconds
+The Excel file. Oh, it's down on the...
+William B Lambert 1 hour 16 minutes 16 seconds
+On the bottom in the module, tornado chart demo, I'm sorry, I just, again, I had it there, I hadn't put it there. So you go ahead and download that thing right here, okay?
+William B Lambert 1 hour 16 minutes 27 seconds
+And okay, thanks very much. And so, yeah, it's got this information at the top and we'll work through it. But the issue is, is this, hey, wait a minute, we want to find out which uncertainties really matter. What should we spending our effort on?
+SD
+Susan Dang
+1 hour 16 minutes 27 seconds1:16:27
+Susan Dang 1 hour 16 minutes 27 seconds
+Got it.
+Susan Dang 1 hour 16 minutes 30 seconds
+Thank you.
+
+William B Lambert
+1 hour 16 minutes 46 seconds1:16:46
+
+And this is how we do that, and everybody else get it once they see it.
+William B Lambert 1 hour 16 minutes 53 seconds
+So...
+William B Lambert 1 hour 16 minutes 55 seconds
+The way we build this thing is we have some assumptions. And our little example here is going to be, I think it's like coffee sales or something like, or something. It doesn't really matter.
+William B Lambert 1 hour 17 minutes 10 seconds
+It doesn't really matter. I've got a number of customers every day. Sale average price is going to be the price. They buy my product for variable cost per customer. I actually have a value. And then I have some costs, monthly rent and labor costs. So these are working for me.
+William B Lambert 1 hour 17 minutes 29 seconds
+These are working against me.
+William B Lambert 1 hour 17 minutes 32 seconds
+Well, the base values, nobody usually sees the low and the high.
+William B Lambert 1 hour 17 minutes 38 seconds
+They see a base value. They say, well, it's 200.
+William B Lambert 1 hour 17 minutes 43 seconds
+No, it's not 200. Actually, you go back and you talk to the person who's on top of that and say, you know, how bad can it get? Well, 160. How good can it get? 240? Actually, when you're asking that.
+William B Lambert 1 hour 18 minutes 6 seconds
+because people go extremes with outliers. So, but that's, you know, how you get the information. And so you go and you get that information of the lows and the highs, all right? And what we're going to do is we're going to calculate our base case, and then we're going to swing
+William B Lambert 1 hour 18 minutes 27 seconds
+these parameters from the low to the high and calculate what that gives us and then we're going to rack and stack them and see our profit
+William B Lambert 1 hour 18 minutes 38 seconds
+When does it swing the most? Does it swing the most with the day customers or the number of the or the variable cost or maybe the monthly rent or monthly labor costs? Because that varies. We can't tell by looking at it, so we're going to model it. In this case, if we go back to slide, I have 300, we're saying 300 operating days
+William B Lambert 1 hour 19 minutes
+per year.
+William B Lambert 1 hour 19 minutes 3 seconds
+Times 12 months of the fixed cost, there's the 12. So 300 times the number of customers plus my contribution margin, price minus variable cost. That's my revenue piece. And then here's my cost piece, which is 12 months because I got monthly rent of rent plus labor.
+William B Lambert 1 hour 19 minutes 23 seconds
+All right. And so I do that calculation, I stuff it in, and the base case profit is 276 grand with all of our five inputs at the base case.
+William B Lambert 1 hour 19 minutes 34 seconds
+We did all that. Building the analysis. These are the steps that we'll go through.
+William B Lambert 1 hour 19 minutes 42 seconds
+We're going to use a one-way data table to model to get the profit for the low and the high values for each of the individual uncertainties, the parameters. What do you mean by a one-way data table? I'll show you. We'll do it.
+William B Lambert 1 hour 20 minutes 1 second
+And then we're going to take a summary, we're going to chart a table, we're going to sort that, and then we're going to chart the output. The reason I'm showing you this, I want you to see where we're going before we actually do it.
+William B Lambert 1 hour 20 minutes 13 seconds
+So at the end, when we swung these things from high to low, I ended up with a minimum and maximum value. So if I took my daily customers all the way to that high value that we estimated it could be, man, my profit goes up to 372. But if I swing it down to the bottom,
+William B Lambert 1 hour 20 minutes 34 seconds
+It's 180, so I want a chart that shows this instead of trying to read these numbers.
+William B Lambert 1 hour 20 minutes 41 seconds
+This is the swing. This is what we're looking at.
+William B Lambert 1 hour 20 minutes 50 seconds
+That's our end product.
+William B Lambert 1 hour 20 minutes 53 seconds
+Here are the parameters. Okay. Now, this isn't a simulation, but this is just saying which of these parameters is going to have the biggest, can have the biggest impact on our profit. And therefore, those are the ones we need to go
+William B Lambert 1 hour 21 minutes 12 seconds
+and get more information about. Because if we, instead of just a high and a low, maybe we could do some study and bring that thing in.
+William B Lambert 1 hour 21 minutes 21 seconds
+Because we realize that's the one we need to watch. Do we need to care at all about the monthly rent?
+William B Lambert 1 hour 21 minutes 28 seconds
+Absolutely not. It varies our profit from low to high from by what? Not even 24,000 bucks. This thing? Holy smokes. That's where our risk is going to be.
+William B Lambert 1 hour 21 minutes 43 seconds
+Right, and we don't like variance. We like tight numbers. Do you normally sort those like so they come out like a tornado? Can you have it to where? That's where you want. OK, yeah, so you sort it by the swing basically. What's that? You sort it by the swing? Yes, Sir. OK, so let's that's what we're going for.
+William B Lambert 1 hour 22 minutes 2 seconds
+Let's get this out of the way and let's start building this guy.
+William B Lambert 1 hour 22 minutes 8 seconds
+Okay, so the first thing that we need to do here...
+William B Lambert 1 hour 22 minutes 29 seconds
+I got the solution in the end.
+William B Lambert 1 hour 22 minutes 42 seconds
+In the end, this is what we're going to look like. We're starting up here. We're going to build all this. Sound good? In fact, you got all this. These down here are going to be our data tables. Over here, we're going to collect that min, max, start and swing. We'll see what those are. And then up here, we sort these.
+William B Lambert 1 hour 23 minutes 3 seconds
+by swing from low to high, and then we turn around and plot it out here. Okay, so let's do it.
+William B Lambert 1 hour 23 minutes 11 seconds
+And that's a simple bar chart. We're just trying to, we're just going to have to do some, a little bit of magic to it. So I bet, okay, let's start. So, oops, not mine, yours. So we've got our deal right here. And
+William B Lambert 1 hour 23 minutes 27 seconds
+Nuts. We want to be able to name these cells, okay? And so naming cells in a...
+William B Lambert 1 hour 23 minutes 37 seconds
+Table can be a pain in the ****, because I got a bunch of them, right?
+William B Lambert 1 hour 23 minutes 44 seconds
+Make sense? How are we going to do one, two, three? No, we're not going to do it. We're going to find a different way to name ourselves. So for the base value, all right,
+William B Lambert 1 hour 23 minutes 58 seconds
+The low and the high, I'm going to want those as like the suffix.
+William B Lambert 1 hour 24 minutes 3 seconds
+And I want these to be the prefix, the first part. And you might want to follow me while you're doing this. Okay, so I'm just going to insert, I'm going to insert a couple rows here. And off to the right, I'm going to name my names here, customer,
+William B Lambert 1 hour 24 minutes 22 seconds
+But all I'm doing is the ones that are on the parameter description. Instead of average sale, let's just call it price. I can type. Next is VAR cost or cost VAR, however you want to do it. Next is rent. Last is labor.
+William B Lambert 1 hour 24 minutes 39 seconds
+Okay, so these are going to be the first part of my named cells.
+William B Lambert 1 hour 24 minutes 46 seconds
+Now, we need the second part.
+William B Lambert 1 hour 24 minutes 48 seconds
+Okay, and I want it to be suffixed by base, low, or high. Well, actually, let's just keep the base as the base. So take these and copy them, control C, just paste them right there.
+William B Lambert 1 hour 25 minutes 5 seconds
+Because when they're right there, highlight those.
+William B Lambert 1 hour 25 minutes 9 seconds
+Go to formulas, create from selection, make sure you don't do the top, the right column.
+William B Lambert 1 hour 25 minutes 17 seconds
+OK, now we've got these guys, right?
+William B Lambert 1 hour 25 minutes 21 seconds
+Those are named. You with me?
+William B Lambert 1 hour 25 minutes 24 seconds
+Okay, now temporarily, let's do this a lowercase low and a lowercase high.
+William B Lambert 1 hour 25 minutes 33 seconds
+Okay.
+William B Lambert 1 hour 25 minutes 36 seconds
+What we're going to do is we are going to concatenate.
+William B Lambert 1 hour 25 minutes 41 seconds
+these labels. So I want to end up with customer under score low in this cell so that I can highlight these and name them right from selection, right?
+William B Lambert 1 hour 25 minutes 53 seconds
+So I'm going to go equal, or I'm going to make this bigger and do F2.
+William B Lambert 1 hour 25 minutes 59 seconds
+Two equals.
+William B Lambert 1 hour 26 minutes 1 second
+I come over here, I'm going to say customer.
+William B Lambert 1 hour 26 minutes 6 seconds
+To concatenate the glue is the ampersand sign.
+William B Lambert 1 hour 26 minutes 11 seconds
+I'm gonna need an under score between it.
+William B Lambert 1 hour 26 minutes 17 seconds
+And then I need another ampersand sign to get this guy that says low.
+William B Lambert 1 hour 26 minutes 24 seconds
+On this low one.
+William B Lambert 1 hour 26 minutes 26 seconds
+We want to make sure that it stays relative, because we're going to drag this down. So we want row 9. Hit your F4 key until you get.
+William B Lambert 1 hour 26 minutes 37 seconds
+There, D, so now it will stay absolute on the row nine. I hit enter, customer low. Is that what I'm hoping?
+William B Lambert 1 hour 26 minutes 48 seconds
+Drag it down.
+William B Lambert 1 hour 26 minutes 51 seconds
+Get these other guys low.
+William B Lambert 1 hour 26 minutes 55 seconds
+Highlight.
+William B Lambert 1 hour 26 minutes 58 seconds
+Trang from selection.
+William B Lambert 1 hour 27 minutes 1 second
+Right column.
+William B Lambert 1 hour 27 minutes 7 seconds
+Sound good?
+William B Lambert 1 hour 27 minutes 12 seconds
+Please click.
+William B Lambert 1 hour 27 minutes 16 seconds
+This concatenation thing in doing labels, and remember the MPV at 8% or 5%, and getting to make your stuff look good and naming it, you got to find an efficient way to do it. Because if we did those one cell at a time, it'd take forever.
+William B Lambert 1 hour 27 minutes 36 seconds
+I don't know if you find that anywhere. That's just the way I figured out how to do it because I didn't want to take too long.
+William B Lambert 1 hour 27 minutes 52 seconds
+And then we got Low, and then for the last ones over here, I actually have to drag these off to the right.
+William B Lambert 1 hour 28 minutes 1 second
+because I want to use the same trick. So I will drag that formula over here, and I'll just change the references. I'll just drag, there's customer, there's high, F9, H1, it's good.
+William B Lambert 1 hour 28 minutes 18 seconds
+No, like.
+Right from selection.
+William B Lambert 1 hour 28 minutes 23 seconds
+Okay.
+William B Lambert 1 hour 28 minutes 26 seconds
+Now I can turn around and delete.
+William B Lambert 1 hour 28 minutes 30 seconds
+These columns.
+William B Lambert 1 hour 28 minutes 33 seconds
+Delete that guy.
+William B Lambert 1 hour 28 minutes 36 seconds
+Shift left, OK, with this capitalized again.
+William B Lambert 1 hour 28 minutes 42 seconds
+Then I'm good. OK, so we've named what we need.
+William B Lambert 1 hour 28 minutes 47 seconds
+Next, what do we gotta do?
+William B Lambert 1 hour 28 minutes 51 seconds
+Next, we need to calculate the base profit.
+William B Lambert 1 hour 28 minutes 57 seconds
+And so the base profit, let's just, yeah, create a cell here, profit.
+William B Lambert 1 hour 29 minutes 3 seconds
+And it's going to follow that formula that I have up above. So that's, oh, I'm sorry. I need to put in parameters for that. I would put in parameters for the days in the month, but given the time, forgive me, we're going to hard code it just for demonstration purposes. So let's say 300 days.
+William B Lambert 1 hour 29 minutes 24 seconds
+Times the number of customers, which are those right? Did I not?
+William B Lambert 1 hour 29 minutes 32 seconds
+I made those.
+William B Lambert 1 hour 29 minutes 34 seconds
+What?
+William B Lambert 1 hour 29 minutes 42 seconds
+Sir, just a minute.
+William B Lambert 1 hour 29 minutes 45 seconds
+Customer.
+William B Lambert 1 hour 29 minutes 56 seconds
+I don't know where it was, but space.
+William B Lambert 1 hour 30 minutes 2 seconds
+equals 300 times.
+William B Lambert 1 hour 30 minutes 6 seconds
+Customer.
+William B Lambert 1 hour 30 minutes 10 seconds
+Times.
+William B Lambert 1 hour 30 minutes 12 seconds
+Ries.
+William B Lambert 1 hour 30 minutes 16 seconds
+Minus.
+William B Lambert 1 hour 30 minutes 18 seconds
+The variable cost, so we got to put that in parentheses.
+William B Lambert 1 hour 30 minutes 25 seconds
+Yes.
+William B Lambert 1 hour 30 minutes 28 seconds
+I'm sorry, it was my -12 times.
+William B Lambert 1 hour 30 minutes 38 seconds
+That was...
+William B Lambert 1 hour 30 minutes 42 seconds
+27,600, what we saw before.
+William B Lambert 1 hour 30 minutes 47 seconds
+K.
+William B Lambert 1 hour 30 minutes 54 seconds
+Feeling good?
+William B Lambert 1 hour 30 minutes 56 seconds
+Okay, at this point, we're going to start making the data tables. And remember, what we're going to do is we need to set something up where I can calculate the profit at the low, the profit at the high. That's going to give me that swing.
+William B Lambert 1 hour 31 minutes 13 seconds
+Of the value I care about.
+William B Lambert 1 hour 31 minutes 17 seconds
+based on the possible values of customers. So just going to give me that range. So how do we do a data table? I'll go slow. Has anybody up there done data tables before?
+William B Lambert 1 hour 31 minutes 33 seconds
+Yeah, what's what? Well, never mind.
+William B Lambert 1 hour 31 minutes 43 seconds
+Okay, the orientation of the data table can be right or left, I'm sorry, horizontal or vertical, and the layout is simply this. I have the formula.
+William B Lambert 1 hour 31 minutes 56 seconds
+that I care about, and in this case, it's going to be profit.
+William B Lambert 1 hour 32 minutes 1 second
+I have a cell right next to it. If I'm going to do it vertical, I'll do horizontal in a minute. I have a cell right next to it. I can put anything in there I want. So a label like customers or whatever.
+William B Lambert 1 hour 32 minutes 12 seconds
+And then what happens is...
+William B Lambert 1 hour 32 minutes 15 seconds
+I've got a value here, let's say it's 160, and an upper value is 240. And then I highlight the whole thing, and I'm going to come up to our data tab, and I'll show you where we have the data table. And when we make it, it's automatically going to populate.
+William B Lambert 1 hour 32 minutes 35 seconds
+Profit that formula using this inside the formula, and we have to tell it where to go.
+William B Lambert 1 hour 32 minutes 43 seconds
+That's how it works. Let's make it happen here. So the data table, we're going to do it horizontally. It looks the same thing. It would look the same thing. But in this case, I would have the formula on the bottom. So I'll have formula.
+William B Lambert 1 hour 33 minutes 2 seconds
+Here.
+William B Lambert 1 hour 33 minutes 4 seconds
+On the top, I'll have the 160 and the 240.
+William B Lambert 1 hour 33 minutes 11 seconds
+And then these are the cells that once we get the data table highlighted, it'll populate those with the values we're interested.
+William B Lambert 1 hour 33 minutes 20 seconds
+Okay, so let's go and let's make it good. The first one is going to be customers. I'm just going to take, instead of retyping, I'm just going to take and drag it down. Okay? And then over here, I need my high and low values, right? Well, I can just point to them. Equals.
+William B Lambert 1 hour 33 minutes 39 seconds
+Equals.
+William B Lambert 1 hour 33 minutes 41 seconds
+All right, I'm not highlighting yellow just to keep track of it. You guys think I'm crazy on the coloring, but you know, that's the way it goes. So for this cell right here, this is the formula cell. All I want to do is say equals and point it to the thing that I care about. In fact, I didn't forget name that thing, so.
+William B Lambert 1 hour 34 minutes 6 seconds
+So I'm going to point it over here, equals to that which is profit enter.
+William B Lambert 1 hour 34 minutes 12 seconds
+K.
+William B Lambert 1 hour 34 minutes 15 seconds
+Now.
+William B Lambert 1 hour 34 minutes 17 seconds
+Here's where you actually do something.
+William B Lambert 1 hour 34 minutes 21 seconds
+Take the data table and we highlight all these cells and I come up to data and on the top right where it says what-if analysis.
+William B Lambert 1 hour 34 minutes 30 seconds
+Do you see up here on pointing to data table as the third option down there?
+William B Lambert 1 hour 34 minutes 35 seconds
+Let's click on that.
+William B Lambert 1 hour 34 minutes 41 seconds
+Now, this is the weird part thing. It's confusing, so don't let it confuse you. I have a row of values, right? Because you can do a two-way, which we'll do later, and you'll do on your assignment. But I have a row of values here.
+William B Lambert 1 hour 35 minutes
+OK, so the input cell is asking what cell?
+William B Lambert 1 hour 35 minutes 7 seconds
+Do I look at that feeds this formula that you want me to substitute these values for? Somebody tell me which cell it's going to be.
+William B Lambert 1 hour 35 minutes 20 seconds
+This formula is based on what? It's based on these cells, right? I want for my customers, I want to see what that is for 160 customers.
+William B Lambert 1 hour 35 minutes 33 seconds
+So when it says row input, I'm going to select these. Well, it knows these cells and it says point to this one up here that you want me to substitute those values in.
+William B Lambert 1 hour 35 minutes 47 seconds
+So it's gonna be for the base case, 200, right?
+William B Lambert 1 hour 35 minutes 51 seconds
+Because these are the cells used in that formula, and what it will do is it will take that cell.
+William B Lambert 1 hour 35 minutes 57 seconds
+Replace that, or replace that calculation from the 200, or replace it with a 160, and then put that answer there.
+William B Lambert 1 hour 36 minutes 8 seconds
+So, the row input cell on mine is B 10, which is 200.
+William B Lambert 1 hour 36 minutes 15 seconds
+And you gotta hit OK. Bada bing, bada bang.
+William B Lambert 1 hour 36 minutes 20 seconds
+These, I'm going to format.
+William B Lambert 1 hour 36 minutes 26 seconds
+Is it on the data tab again? I'm sorry. Sure, I'll show you.
+William B Lambert 1 hour 36 minutes 31 seconds
+Two seconds. All right, so let's do it again.
+William B Lambert 1 hour 36 minutes 35 seconds
+Now, I can do this vertically as well, but this is called a one-way data table. I come up to the data ribbon, the what-if analysis off to the right, and I got data table. That data table, because I have a row of the values I want to substitute in, I do the row input cell,
+William B Lambert 1 hour 36 minutes 56 seconds
+And...
+William B Lambert 1 hour 36 minutes 58 seconds
+I want them substituted in for daily customers, so I point that.
+William B Lambert 1 hour 37 minutes 3 seconds
+Okay, is the input into the formula? I go okay, and it gives me new ones.
+William B Lambert 1 hour 37 minutes 9 seconds
+Make sense? Did you have to define that as a data table? The data tables? Not what we just did.
+William B Lambert 1 hour 37 minutes 16 seconds
+OK, I'm not following. How do you do that real quick up here on the data tab? OK, what if analysis off to the right? Ohh, OK. No, I was talking, did you actually define that as a table? You mean, ohh, like a table table? Yeah, no, OK, no, no, no, no, yeah, no, good point. OK, now instead of redoing this whole thing.
+William B Lambert 1 hour 37 minutes 35 seconds
+I'm just gonna drag it down.
+William B Lambert 1 hour 37 minutes 39 seconds
+I'll put him right there. Instead of daily customers, I'm going to put average sale. This, I'm going to put to the low, enter this.
+William B Lambert 1 hour 37 minutes 54 seconds
+Hi, Denver.
+William B Lambert 1 hour 37 minutes 57 seconds
+But, but, but see how these things don't change? They're the same as before. You have to redo the data table. And in fact, if you move it anywhere, you gotta redo it. It's just a, you know, it's a feature. And so let's.
+William B Lambert 1 hour 38 minutes 16 seconds
+Just sec, let's highlight the thing again. Go, we're on the data ribbon off to the right data table. In this case, the row input cell is what, 16? Ohh, no, no, it's the average, yeah, yep, it's the $12.00.
+William B Lambert 1 hour 38 minutes 34 seconds
+It okay? Boom. And now we see that the price...
+William B Lambert 1 hour 38 minutes 40 seconds
+gives us a pretty big difference, so do the customers.
+William B Lambert 1 hour 38 minutes 44 seconds
+Let's do the same thing for the other ones. I'll move through quickly just for the sake of time.
+William B Lambert 1 hour 38 minutes 51 seconds
+But we're doing the same thing, so...
+William B Lambert 1 hour 38 minutes 56 seconds
+cost.
+William B Lambert 1 hour 39 minutes 11 seconds
+Variable cost, I get three.
+William B Lambert 1 hour 39 minutes 20 seconds
+This month around to 4000.
+William B Lambert 1 hour 39 minutes 28 seconds
+And these are all just made-up.
+William B Lambert 1 hour 39 minutes 37 seconds
+Okay, now I need to start making data tables for the other ones. You'll see they have all the same value, right?
+William B Lambert 1 hour 39 minutes 44 seconds
+Because we need to change it for the row input, it's going to be 4.
+William B Lambert 1 hour 39 minutes 51 seconds
+This one.
+William B Lambert 1 hour 39 minutes 53 seconds
+Input.
+William B Lambert 1 hour 39 minutes 55 seconds
+It's gonna be the 5000.
+William B Lambert 1 hour 40 minutes
+This one, ramp, oops.
+William B Lambert 1 hour 40 minutes 4 seconds
+This could be the...
+William B Lambert 1 hour 40 minutes 13 seconds
+Okay.
+
+William B Lambert 1 hour 40 minutes 15 seconds
+Alright, now I've got the...
+William B Lambert 1 hour 40 minutes 19 seconds
+values I need for my next step, and it's in the slide deck, the next step is I need to coalesce or I need to bring together a table with the minimum and maximum values. Why do I need the minimum and maximums?
+William B Lambert 1 hour 40 minutes 39 seconds
+Because, yeah, because guess what?
+William B Lambert 1 hour 40 minutes 42 seconds
+for the rent.
+William B Lambert 1 hour 40 minutes 44 seconds
+And for the labor, those costs give a higher profit at their lower values, because their costs.
+William B Lambert 1 hour 40 minutes 53 seconds
+And for me to chart it, I need everything min-max in order.
+William B Lambert 1 hour 41 minutes
+So, let's go ahead and make this happen.
+William B Lambert 1 hour 41 minutes 5 seconds
+Over here, I'm gonna do another thing. I'm gonna call it, I'm gonna do it one, two, three, 5.
+William B Lambert 1 hour 41 minutes 13 seconds
+Two, three, 4, 5.
+William B Lambert 1 hour 41 minutes 16 seconds
+For John since.
+William B Lambert 1 hour 41 minutes 20 seconds
+Sure.
+William B Lambert 1 hour 41 minutes 22 seconds
+I'm just going to take all these guys.
+William B Lambert 1 hour 41 minutes 26 seconds
+And I highlight and I hit control before I drag it in case.
+William B Lambert 1 hour 41 minutes 37 seconds
+So that's that. Now, actually, I'm going to drag him down one. Now, I'm going to name one. I'm going to call this uncertainty.
+William B Lambert 1 hour 41 minutes 47 seconds
+Okay, I'm not going to spell it right. I'm going to say the minimum, the maximum, and then I'm going to say the start and the swing.
+William B Lambert 1 hour 41 minutes 59 seconds
+Dang.
+William B Lambert 1 hour 42 minutes 16 seconds
+Dang, we can do all these by formulas, right?
+William B Lambert 1 hour 42 minutes 23 seconds
+I can point to the other ones, or I can just use the formulas min and max.
+William B Lambert 1 hour 42 minutes 29 seconds
+So, let's do this guy equals min.
+William B Lambert 1 hour 42 minutes 33 seconds
+Of what?
+William B Lambert 1 hour 42 minutes 35 seconds
+this range over here, right? I'm just gonna copy that guy.
+William B Lambert 1 hour 42 minutes 41 seconds
+I'm going to say keep the columns the same.
+William B Lambert 1 hour 42 minutes 45 seconds
+Dollar sign in front of columns.
+William B Lambert 1 hour 42 minutes 49 seconds
+See why in a minute.
+William B Lambert 1 hour 42 minutes 54 seconds
+Right.
+William B Lambert 1 hour 42 minutes 59 seconds
+Okay.
+William B Lambert 1 hour 43 minutes 1 second
+I can drag it to the right, the range stays the same. I just change that to max.
+William B Lambert 1 hour 43 minutes 11 seconds
+I find that I'm going to take the mins and do all of them because my ranges are offset a bit. And then I'll take all those and drag them to the right and change all the mins to maxs. You do it in the order that you'd like.
+William B Lambert 1 hour 43 minutes 25 seconds
+Ona.
+William B Lambert 1 hour 43 minutes 27 seconds
+Sky, and I'm just going to change the ranges, because when I click in the formula, it gives me a box. I can take the box and drag it.
+William B Lambert 1 hour 43 minutes 36 seconds
+Look in the formula, take the box, drag it. And again, I can see it's the blue cells. Again, you guys think I'm crazy about the coloring, but you know, when you're doing stuff like this, it can make these type of repetitive tasks easy.
+William B Lambert 1 hour 44 minutes 5 seconds
+Is everybody with me?
+William B Lambert 1 hour 44 minutes 8 seconds
+Yeah, so what did I do? Just as a reminder, I took the data that I had, I calculated the profit at the base case.
+William B Lambert 1 hour 44 minutes 17 seconds
+I made data tapes.
+William B Lambert 1 hour 44 minutes 19 seconds
+The key about a data table is it allows me to calculate a formula, in this case profit, could be NPV.
+William B Lambert 1 hour 44 minutes 30 seconds
+for a number of different values. So I can see how that formula, in this case profit, or how my MPV varies.
+William B Lambert 1 hour 44 minutes 44 seconds
+All right, how it changes by those values. We're only doing 2 values because we're going to make our data table. And I came over here to the range and I wanted to get the minimum of each of these.
+William B Lambert 1 hour 44 minutes 59 seconds
+The maximums at the minimums, now I'm going to drag it across because it has the same formula.
+William B Lambert 1 hour 45 minutes 7 seconds
+And I'll just change the...
+William B Lambert 1 hour 45 minutes 10 seconds
+A function from min to max.
+William B Lambert 1 hour 45 minutes 17 seconds
+Way to do a find and replace on that or probably not? You know, I'm worth it. Well, I'm one of those that so many times I would do that stuff, but I just look and say, hey, wait a minute, what's the...
+William B Lambert 1 hour 45 minutes 33 seconds
+You know, what's the quickest thing here? Yeah.
+William B Lambert 1 hour 45 minutes 45 seconds
+Give me a second.
+William B Lambert 1 hour 45 minutes 50 seconds
+Trump, the app is this?
+William B Lambert 1 hour 45 minutes 55 seconds
+It's not even necessarily frozen, like I can see it.
+William B Lambert 1 hour 46 minutes
+It's on the formula bar, like I can see the cursor and all that, but for whatever reason, it's just being a pain in the ****. I my...
+William B Lambert 1 hour 46 minutes 11 seconds
+And I did the best of my average self.
+William B Lambert 1 hour 46 minutes 22 seconds
+Yeah.
+William B Lambert 1 hour 46 minutes 26 seconds
+Five 1000 times at 2:00 in the morning.
+William B Lambert 1 hour 46 minutes 31 seconds
+Okay, now we're going to repeat a column because I'm going to name them and you'll see that, you'll see the method in a minute. But start, we want to start our chart, the start and swing are what we need for our chart. So we're going to start at the minimums.
+William B Lambert 1 hour 46 minutes 48 seconds
+Let me just double click that guy down. All I'm doing is repeating that. I'm repeating that column because we're going to make a sorted version of this table directly above it, which we're going to use for the chart. And those
+William B Lambert 1 hour 47 minutes 8 seconds
+columns I'm going to use are called start and swing. So for swing, I just take the max and subtract the start or subtract the min, either one.
+William B Lambert 1 hour 47 minutes 20 seconds
+Max minus the start gives me the swing.
+William B Lambert 1 hour 47 minutes 27 seconds
+It's just that straightforward formula.
+William B Lambert 1 hour 47 minutes 32 seconds
+What's the difference between the min and the max?
+William B Lambert 1 hour 47 minutes 37 seconds
+I get them all here.
+William B Lambert 1 hour 47 minutes 42 seconds
+Can you show me the formula for start again? Start is all this is, is just look at the minimum column. I'm just repeating the minimum column.
+William B Lambert 1 hour 48 minutes
+This is going to be the one that gets a little weird.
+William B Lambert 1 hour 48 minutes 5 seconds
+It's not bad, it's not bad, but...
+William B Lambert 1 hour 48 minutes 10 seconds
+Gotta be pay attention.
+William B Lambert 1 hour 48 minutes 13 seconds
+I'm going to copy this entire table up here and then I'm going to delete the values, okay? So I just copy and I'm going to paste it, right?
+William B Lambert 1 hour 48 minutes 27 seconds
+In fact, I'm not moving.
+William B Lambert 1 hour 48 minutes 31 seconds
+So it's an...
+William B Lambert 1 hour 48 minutes 47 seconds
+So now I don't need my data anymore at all. It's off to my left.
+William B Lambert 1 hour 48 minutes 53 seconds
+I said, I'm gonna, I copied the table, now I'm just going to delete everything in it, including.
+William B Lambert 1 hour 49 minutes
+Labels.
+So what I have is I have a table that's formatted exactly like this one.
+William B Lambert 1 hour 49 minutes 8 seconds
+Right? With absolutely nothing in it. I don't want anything in it because I'm going to use a formula up here called sort by, and it will take this entire table. It will sort it by the column I select, i.e. the swing, but it's a
+William B Lambert 1 hour 49 minutes 26 seconds
+fill, it will spill out. So if you have anything in the cells, you'll get a spill error.
+William B Lambert 1 hour 49 minutes 35 seconds
+So let's try that. Now I'll walk you through the formula over here real quick. So we're going to go equals sort by.
+William B Lambert 1 hour 49 minutes 48 seconds
+And the arguments will tell you there is the array, which is the array we're going to sort, which is everything down here, all of our data.
+William B Lambert 1 hour 49 minutes 57 seconds
+By array one, this is the array we're going to sort it by.
+William B Lambert 1 hour 50 minutes 3 seconds
+So let's do that. Sort by is everything, including the row labels, but not, but not.
+William B Lambert 1 hour 50 minutes 13 seconds
+The labels at the top of the columns.
+William B Lambert 1 hour 50 minutes 17 seconds
+Because when I sort this thing, I'm going to want to know the names, right? On the left column.
+William B Lambert 1 hour 50 minutes 23 seconds
+So, I gotta get the entire all my data.
+William B Lambert 1 hour 50 minutes 27 seconds
+And then now, I'm going to do a comma, and it says, by array, I want to sort it by swing.
+William B Lambert 1 hour 50 minutes 43 seconds
+Dang, before I learned this, forever. Sort, blah, blah, make a different table, you know, because you screw up the formulas, all that crap. Excuse me, I'm sorry for my bad language. And then your last one, hit a comma again, and it's going to say sort ascending or descending.
+William B Lambert 1 hour 51 minutes 4 seconds
+Let's do a sending.
+William B Lambert 1 hour 51 minutes 7 seconds
+Let's do one.
+William B Lambert 1 hour 51 minutes 9 seconds
+close the parentheses and hit enter.
+William B Lambert 1 hour 51 minutes 14 seconds
+Bingo.
+
+Dale Brittain
+1 hour 51 minutes 17 seconds1:51:17
+Dale Brittain 1 hour 51 minutes 17 seconds
+That.
+Dale Brittain 1 hour 51 minutes 22 seconds
+Enough.
+
+William B Lambert
+1 hour 51 minutes 23 seconds1:51:23
+William B Lambert 1 hour 51 minutes 23 seconds
+Gonna make the chart descending, we are.
+
+Dale Brittain
+1 hour 51 minutes 26 seconds1:51:26
+Dale Brittain 1 hour 51 minutes 26 seconds
+Upside down tornado. What are you doing?
+
+William B Lambert
+1 hour 51 minutes 30 seconds1:51:30
+William B Lambert 1 hour 51 minutes 30 seconds
+It'll work. We'll get there.
+William B Lambert 1 hour 51 minutes 34 seconds
+Okay, so now if I'm going to do this chart, right?
+William B Lambert 1 hour 51 minutes 40 seconds
+What am I going to have? These are going to be my categories.
+William B Lambert 1 hour 51 minutes 47 seconds
+These are going to be my two series.
+William B Lambert 1 hour 51 minutes 52 seconds
+And we're gonna do it in a horizontal bar chart, OK?
+William B Lambert 1 hour 51 minutes 57 seconds
+So let's do it. We're gonna select this guy.
+William B Lambert 1 hour 52 minutes 1 second
+And these two, and then we're going to go up to the insert.
+William B Lambert 1 hour 52 minutes 7 seconds
+And.
+William B Lambert 1 hour 52 minutes 11 seconds
+And on the insert, go over to your charts. You can hit recommended charts. And this is 1 clustered bar, but we actually want the one that's stacked next to each other.
+William B Lambert 1 hour 52 minutes 26 seconds
+Dang, what do those orange bars look like?
+William B Lambert 1 hour 52 minutes 31 seconds
+That looks like our tornado.
+
+Dale Brittain
+1 hour 52 minutes 31 seconds1:52:31
+Dale Brittain 1 hour 52 minutes 31 seconds
+It's like a tornado, yeah.
+
+William B Lambert
+1 hour 52 minutes 33 seconds1:52:33
+William B Lambert 1 hour 52 minutes 33 seconds
+So what we're going to do is we're going to make this guy and then we're going to hide the quote start bars.
+William B Lambert 1 hour 52 minutes 41 seconds
+So let's go. Okay. All right.
+William B Lambert 1 hour 52 minutes 49 seconds
+Now, you're going to say, hey, wait a minute, how do we do that with ascending?
+William B Lambert 1 hour 52 minutes 53 seconds
+When we sorted it ascending, right?
+William B Lambert 1 hour 52 minutes 58 seconds
+Well, we had the smallest swing, but if we have the smallest swing, that means we had the longest start.
+William B Lambert 1 hour 53 minutes 8 seconds
+And that pushes it as far out as we can go. So what do we do now?
+William B Lambert 1 hour 53 minutes 16 seconds
+Two-minute drill, we highlight the series, so I click once on there.
+William B Lambert 1 hour 53 minutes 22 seconds
+And then I right click, oops, right, right click, and where it says fill.
+William B Lambert 1 hour 53 minutes 31 seconds
+Get this, you see where it says no fill?
+William B Lambert 1 hour 53 minutes 35 seconds
+No, Phil?
+William B Lambert 1 hour 53 minutes 38 seconds
+And then the next thing next to it, it says outline. If you click down there, we're going to do no outline.
+William B Lambert 1 hour 53 minutes 47 seconds
+Are you going to post this spreadsheet that you just created online as well? I don't know. Should I? Oh, yeah.
+
+Dale Brittain
+1 hour 53 minutes 54 seconds1:53:54
+Dale Brittain 1 hour 53 minutes 54 seconds
+Isn't that the assignment though? I mean, yeah, that'd be awesome.
+
+William B Lambert
+1 hour 53 minutes 58 seconds1:53:58
+William B Lambert 1 hour 53 minutes 58 seconds
+Well, this is that. Well, no, this is just the exercise we're doing in class, right?
+
+Dale Brittain
+1 hour 54 minutes 2 seconds1:54:02
+Dale Brittain 1 hour 54 minutes 2 seconds
+Oh, okay, okay, okay.
+
+William B Lambert
+1 hour 54 minutes 4 seconds1:54:04
+William B Lambert 1 hour 54 minutes 4 seconds
+So now, now what do we want to do? First off, we're going to do a little chartmanship here for just a minute.
+William B Lambert 1 hour 54 minutes 14 seconds
+This horizontal axis starts at 0.
+William B Lambert 1 hour 54 minutes 19 seconds
+This is the key, and you will find this with your other charts that you've done for your discounted cash flows and for your break evens on the summary table. What's frustrating is if you change the scale,
+William B Lambert 1 hour 54 minutes 37 seconds
+Then, when you change values, it doesn't automatically update.
+William B Lambert 1 hour 54 minutes 42 seconds
+Does that make sense?
+William B Lambert 1 hour 54 minutes 44 seconds
+But in other words, it won't update. If I change this minimum to, let's say, 100,000, and then all of a sudden I change some data, I want this thing to automatically update, right?
+William B Lambert 1 hour 54 minutes 58 seconds
+It's going to be 100,000. What if there's something back here at 50? Well, it'll cut it off. So you play with that if you're yourself. And I mean, if you figure out a better way, let me know. In this case, let's pretend we're not going to use this, all right? For analysis, you might not want to make that assumption for your, when you do it for your assignment. But down at the bottom, format axes.
+William B Lambert 1 hour 55 minutes 19 seconds
+See where it says minimum is 0? Well, I'm looking over here and the minimum start I get is 156. So let's call the minimum 175, one, two, three.
+William B Lambert 1 hour 55 minutes 35 seconds
+All right, that's not big enough because I want room for my data labels. So let's make this.
+William B Lambert 1 hour 55 minutes 42 seconds
+125.
+William B Lambert 1 hour 55 minutes 48 seconds
+Yeah, that looks good.
+William B Lambert 1 hour 55 minutes 50 seconds
+Now all this stuff is jammed together, so I'm going to change the major units instead of, I don't know, 50,000, let's make them 75, see if that makes it look a little better.
+William B Lambert 1 hour 56 minutes 4 seconds
+That's readable. So I'm starting at 125. There's 200, 275, 350 and 425.
+William B Lambert 1 hour 56 minutes 15 seconds
+Do we ever want to have a chart that sits like this without numbers?
+William B Lambert 1 hour 56 minutes 21 seconds
+Not if we can, if we can provide numbers so somebody can actually read what that is, we do it. If they get 2 jammed together, it defeats the purpose. But in this case, all we're going to do is we're going to get a chart, click on the series, not one bar, but the whole series, and right click.
+William B Lambert 1 hour 56 minutes 40 seconds
+and add data labels.
+William B Lambert 1 hour 56 minutes 44 seconds
+You see the add data labels.
+William B Lambert 1 hour 56 minutes 47 seconds
+There they go.
+William B Lambert 1 hour 56 minutes 51 seconds
+Well, the problem is, those are the data labels for the swing.
+William B Lambert 1 hour 56 minutes 56 seconds
+What about the data labels? I want the bottom ones, right?
+William B Lambert 1 hour 57 minutes
+So what do we do? Click over here. The series is there just because you can't see it. Right click, add data labels to that series. And now you got numbers on the left, on the right.
+William B Lambert 1 hour 57 minutes 14 seconds
+Okay.
+William B Lambert 1 hour 57 minutes 16 seconds
+Those data labels, oh, gee, we're almost out of time. We are out of time, sorry. The one thing you can do on those data labels is you see down on the bottom, it says,
+William B Lambert 1 hour 57 minutes 27 seconds
+Label position center, inside in, inside base.
+William B Lambert 1 hour 57 minutes 33 seconds
+Let's take it to the end.
+William B Lambert 1 hour 57 minutes 36 seconds
+Just don't have to drag him so far.
+William B Lambert 1 hour 57 minutes 39 seconds
+So now I can take each one and drag him out. Make sure you're not pulling on the bar, but you're just clicking on the label.
+William B Lambert 1 hour 57 minutes 49 seconds
+And the one on the other end are okay because...
+William B Lambert 1 hour 57 minutes 54 seconds
+bars not seen. Now, if you see these little lines here, you see that little line, it's called a leader line. You unclick that.
+William B Lambert 1 hour 58 minutes 4 seconds
+And then, hold on just a second. One thing I told you about earlier, then we're going to be done. Remember I said where you made custom labels and I told you you make formula in a cell?
+William B Lambert 1 hour 58 minutes 16 seconds
+Here, you say value from cells and you point to your custom label up there.
+William B Lambert 1 hour 58 minutes 23 seconds
+data label as opposed and you uncheck that one.
+William B Lambert 1 hour 58 minutes 26 seconds
+Okay.
+William B Lambert 1 hour 58 minutes 30 seconds
+Alright.
+William B Lambert 1 hour 58 minutes 33 seconds
+Last thing.
+William B Lambert 1 hour 58 minutes 35 seconds
+Last thing.
+William B Lambert 1 hour 58 minutes 38 seconds
+When you run this.
+William B Lambert 1 hour 58 minutes 40 seconds
+You need to build one of these for each of your models.
+William B Lambert 1 hour 58 minutes 45 seconds
+Because, lo and behold...
+William B Lambert 1 hour 58 minutes 47 seconds
+Guess what? The drivers that are going to drive the MPV may be different in each of the models. And by the way, I'll give you new data. We didn't get to do the VBA tonight. But the reality is, for this, pretend this is for Westminster. For this, these top
+William B Lambert 1 hour 59 minutes 7 seconds
+two are the main drivers. Guess what? For Golden, it might be the other fixed costs or the total fixed costs or whatever. Okay? And you need to base this on a cell, not a formula. But does that make sense? So now you walk into that meeting.
+William B Lambert 1 hour 59 minutes 26 seconds
+And the finance guy wants to play with discount rates and you say, hey, yeah, I love you. You're the smartest guy in the room. But actually those don't even move the needle on what we're looking at here, trying to get a handle on this uncertainty. Okay?
+William B Lambert 1 hour 59 minutes 43 seconds
+Does this look like it can be useful to you?
+William B Lambert 1 hour 59 minutes 48 seconds
+in doing business intelligence and analysis. Yes? Okay, good. I'll put the assignment together. I can tell you I'm going to give you new data. We're going to be doing this for your data wrangling. That's just monkey skills. We didn't spend any time on it, but what I'm going to give you
+SD
+Susan Dang
+1 hour 59 minutes 53 seconds1:59:53
+Susan Dang 1 hour 59 minutes 53 seconds
+Yes.
+William B Lambert
+2 hours 8 seconds2:00:08
+William B Lambert 2 hours 8 seconds
+is just five spreadsheets with some data in it that you need to clean up.
+William B Lambert 2 hours 14 seconds
+All right. And you need to use what you had with Power Query to clean those up. It's just a straight sit there, clean your data using the Power Query. Okay. Does that make sense? Yep. That stuff kind of learned on your own. And next week we're going to be doing EDA. So that's going to be.
+William B Lambert 2 hours 34 seconds
+The advancing and analytics book, the first section is all about doing stats in Excel. I posted some of my old stats slides, or my current stats slides, and you're going to be doing the tornado. You're going to be adding the forecast error into your model. So we're going to add some uncertainty in that.
+William B Lambert 2 hours 54 seconds
+And I'm going to want you to make sure that you work on your switches so that we can be modifying things. Okay? I'll type it all out and get it to you. My apologies again. I'll try and do a better job of keeping things even paced to get us through.
+William B Lambert 2 hours 1 minute 13 seconds
+and giving you as much as I can. But like I said, gang, I'm doing a brain dump here of, you know, 20 years of doing this stuff. 25, actually, that's scary. And they're trying to give it to you in bite size. Okay. Sorry to keep you late. We had a, we had kind of a long discussion at the beginning.
+William B Lambert 2 hours 1 minute 32 seconds
+So I'll see you online if you have any questions. Okay. All right. Thanks so much. You have a great night.
+AL
+Adina Lobato
+2 hours 1 minute 38 seconds2:01:38
+Adina Lobato 2 hours 1 minute 38 seconds
+Thank you.
+SD
+Susan Dang
+2 hours 1 minute 38 seconds2:01:38
+Susan Dang 2 hours 1 minute 38 seconds
+Thank you.
+
+William B Lambert
+2 hours 1 minute 39 seconds2:01:39
+William B Lambert 2 hours 1 minute 39 seconds
+Yep.
+
+William B Lambert stopped transcription
